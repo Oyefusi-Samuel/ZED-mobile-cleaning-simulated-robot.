@@ -175,6 +175,8 @@ cd src
 ros2 pkg create <name of pkg> --build-type ament_python --dependencies rclpy       # mine was ros2 pkg create drive_robot --build-type ament_python --dependencies rclpy
 
 ```
+<!-- Uploading "Screenshot from 2025-01-19 21-37-27.png"... -->
+Run the API script on vscode
 
 Install transformations packages 
 
