@@ -175,8 +175,6 @@ cd src
 ros2 pkg create <name of pkg> --build-type ament_python --dependencies rclpy       # mine was ros2 pkg create drive_robot --build-type ament_python --dependencies rclpy
 
 ```
-<!-- Uploading "Screenshot from 2025-01-19 21-37-27.png"... -->
-Run the API script on vscode
 
 Install transformations packages 
 
@@ -187,10 +185,12 @@ sudo apt install ros-humble-tf-transformations
 sudo apt install python3-transforms3d 
 ```
 
- Run the node in the pasckage to make the robot drive forward, in linear of x.
- ```
-   ros2 run drive_robot velocity_drive
- ```
+ Run the script in the pasckage to make the robot drive to goal set in the code.
+ 
+![Image](https://github.com/user-attachments/assets/ac2c774e-f86a-445b-be6f-b23cd3ececde)
+
+![Image](https://github.com/user-attachments/assets/a6c909a8-4446-4182-b89a-77c06aaa6370)
+
 
 # Converting Gazebo classic to Gazebo Ignition(Lastest Gazebo simulator)
 Install required dependecies
