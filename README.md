@@ -185,7 +185,7 @@ sudo apt install ros-humble-tf-transformations
 sudo apt install python3-transforms3d 
 ```
 
- Run the script in the pasckage to make the robot drive to goal set in the code.
+ Run the script in the pasckage to make the robot drive to goal 3.5,0  set in the code.
  
 ![Image](https://github.com/user-attachments/assets/ac2c774e-f86a-445b-be6f-b23cd3ececde)
 
