@@ -165,23 +165,22 @@ Navigation Mode(NAV2 stack)
  ros2 launch ros2_mapping navigation.py    # set 2d pose estimate of the robot to begin navigation
 ```
 
-#   INTERACT PROGRAMATICALLY WITH THE NAVIGATION STACK (python API)
+# INTERACT PROGRAMATICALLY WITH THE NAVIGATION STACK (python API)
    
-   We can also write a python script that publish certain velocity to make the robot move and also perform some basic task.
-   
- Create a ROS 2 package called drive_robot ,its dependecies on rclpy,the package should be created in the src directory of your workspace.
+   We can also write a python script that publish certain velocity to make the robot move and also perform some basic task. its dependecies on rclpy,the package should be created in the src directory of your workspace.
+```
+cd src
+```
+```
+ros2 pkg create <name of pkg> --build-type ament_python --dependencies rclpy       # mine was ros2 pkg create drive_robot --build-type ament_python --dependencies rclpy
 
- ```
-   cd src
- ```
- 
- ```
-   ros2 pkg create drive_robot --build-type ament_python --dependencies rclpy
- ```
+```
+
 Install transformations packages 
 
 ```
 sudo apt install ros-humble-tf-transformations
+```
 ```
 sudo apt install python3-transforms3d 
 ```
