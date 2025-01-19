@@ -164,6 +164,8 @@ Navigation Mode(NAV2 stack)
 ```
  ros2 launch ros2_mapping navigation.py    # set 2d pose estimate of the robot to begin navigation
 ```
+
+#   INTERACT PROGRAMATICALLY WITH THE NAVIGATION STACK (python API)
    
    We can also write a python script that publish certain velocity to make the robot move and also perform some basic task.
    
@@ -175,8 +177,15 @@ Navigation Mode(NAV2 stack)
  
  ```
    ros2 pkg create drive_robot --build-type ament_python --dependencies rclpy
- 
  ```
+Install transformations packages 
+
+```
+sudo apt install ros-humble-tf-transformations
+```
+sudo apt install python3-transforms3d 
+```
+
  Run the node in the pasckage to make the robot drive forward, in linear of x.
  ```
    ros2 run drive_robot velocity_drive
