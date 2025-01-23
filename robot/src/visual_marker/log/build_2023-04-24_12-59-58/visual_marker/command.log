@@ -1,2 +1,0 @@
-Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8
-Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '2': /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8

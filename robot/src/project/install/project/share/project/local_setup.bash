@@ -1,1 +1,0 @@
-/home/magnum/simuate_ws/src/robot/src/project/build/project/ament_cmake_environment_hooks/local_setup.bash

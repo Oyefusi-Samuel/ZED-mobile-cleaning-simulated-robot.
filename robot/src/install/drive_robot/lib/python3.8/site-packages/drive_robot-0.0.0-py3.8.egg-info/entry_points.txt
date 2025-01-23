@@ -1,3 +1,0 @@
-[console_scripts]
-velocity_drive = drive_robot.move_robot:main
-

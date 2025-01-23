@@ -1,7 +1,0 @@
-[01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KUtility.h: No such file or directory
-    2 | #include [01;31m[K"Utility.h"[m[K
-      |          [01;31m[K^~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/visual.dir/build.make:76: CMakeFiles/visual.dir/src/visual.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visual.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

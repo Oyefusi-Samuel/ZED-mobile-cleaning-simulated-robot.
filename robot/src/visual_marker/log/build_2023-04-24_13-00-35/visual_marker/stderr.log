@@ -1,8 +1,0 @@
-In file included from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:3[m[K:
-[01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.hpp:9:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.hpp: No such file or directory
-    9 | #include [01;31m[K"tf2_ros/transform_broadcaster.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/visual.dir/build.make:76: CMakeFiles/visual.dir/src/visual.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visual.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2

@@ -1,2 +1,0 @@
-Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
-Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8

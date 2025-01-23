@@ -1,8 +1,0 @@
-[31mCMake Error at CMakeLists.txt:21 (ament_target_dependecies):
-  Unknown CMake command "ament_target_dependecies".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles/CMakeOutput.log".
-See also "/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles/CMakeError.log".
-make: *** [Makefile:267: cmake_check_build_system] Error 1

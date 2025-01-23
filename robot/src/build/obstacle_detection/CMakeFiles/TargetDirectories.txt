@@ -1,2 +1,0 @@
-/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection/CMakeFiles/rebuild_cache.dir
-/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection/CMakeFiles/edit_cache.dir

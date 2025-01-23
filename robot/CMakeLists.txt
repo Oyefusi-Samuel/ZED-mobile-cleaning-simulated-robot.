@@ -32,14 +32,16 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-install(DIRECTORY launch description params maps
- DESTINATION share/${PROJECT_NAME}
+# Install launch files.
+install(DIRECTORY
+    config
+    description
+    launch
+    maps
+    models
+    params
+    worlds
+    DESTINATION share/${PROJECT_NAME}/
 )
 
-install(DIRECTORY config
-     DESTINATION share/${PROJECT_NAME}
-     )
-     install(DIRECTORY worlds
-     DESTINATION share/${PROJECT_NAME}
-     )
 ament_package()

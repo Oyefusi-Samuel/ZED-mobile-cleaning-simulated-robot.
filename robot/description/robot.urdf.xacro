@@ -6,7 +6,9 @@
   <!-- The gazebo control file  -->
   <xacro:include filename="gazebo_controller.xacro"/>
   <!-- The lidar sensor file  -->
-  <xacro:include filename="lidar_sensor.xacro"/>  
+  <xacro:include filename="lidar_sensor.xacro"/> 
+  <!-- The imu sensor file  -->
+  <xacro:include filename="imu_sensor.xacro"/> 
   <!-- dept camra file  -->
   <xacro:include filename="dept_camera.xacro"/>
 

@@ -1,4 +1,0 @@
-[31mCMake Error at CMakeLists.txt:31 (install):
-  install TARGETS given target "visual_node" which does not exist.
-
-[0m

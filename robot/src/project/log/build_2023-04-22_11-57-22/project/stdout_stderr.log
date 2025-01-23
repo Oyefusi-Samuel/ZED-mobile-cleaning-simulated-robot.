@@ -1,9 +1,0 @@
-[ 25%] Built target project
-[ 37%] [32mBuilding CXX object CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o[0m
-[01m[K/home/magnum/simuate_ws/src/robot/src/project/src/avoid_obstacle.cpp:47:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
-   47 |     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr [01;31m[Klaser_sub[m[K
-      |                                                                  [01;31m[K^~~~~~~~~[m[K
-      |                                                                           [32m[K;[m[K
-make[2]: *** [CMakeFiles/avoid_obstacle.dir/build.make:76: CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/avoid_obstacle.dir/all] Error 2
-make: *** [Makefile:146: all] Error 2
