@@ -1,0 +1,40 @@
+[0.015s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[0.028s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.198s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.204s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.225s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.227s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.325s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.354s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.354s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.432s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.451s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.496s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.507s] -- Configured cppcheck include dirs: 
+[0.507s] -- Configured cppcheck exclude dirs and/or files: 
+[0.516s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.516s] -- Configured cpplint exclude dirs and/or files: 
+[0.517s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.520s] -- Added test 'lint_cmake' to check CMake code style
+[0.521s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.529s] -- Added test 'uncrustify' to check C / C++ code style
+[0.529s] -- Configured uncrustify additional arguments: 
+[0.530s] -- Added test 'xmllint' to check XML markup files
+[0.531s] -- Configuring done
+[0.543s] -- Generating done
+[0.544s] -- Build files have been written to: /home/magnum/simuate_ws/src/robot/src/project/build/project
+[0.562s] [ 25%] [32mBuilding CXX object CMakeFiles/projectt.dir/src/drive_straight.cpp.o[0m
+[0.569s] [ 50%] [32mBuilding CXX object CMakeFiles/project.dir/src/pub.cpp.o[0m
+[0.602s] [01m[K/home/magnum/simuate_ws/src/robot/src/project/src/drive_straight.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.602s]     3 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.602s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.603s] compilation terminated.
+[0.604s] make[2]: *** [CMakeFiles/projectt.dir/build.make:76: CMakeFiles/projectt.dir/src/drive_straight.cpp.o] Error 1
+[0.604s] make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/projectt.dir/all] Error 2
+[0.604s] make[1]: *** Waiting for unfinished jobs....
+[2.862s] [ 75%] [32m[1mLinking CXX executable project[0m
+[3.003s] [ 75%] Built target project
+[3.003s] make: *** [Makefile:146: all] Error 2
+[3.005s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8

@@ -1,0 +1,25 @@
+[0.027s] Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o[0m
+[5.629s] [100%] [32m[1mLinking CXX executable drive_to_point[0m
+[5.909s] [100%] Built target drive_to_point
+[5.926s] Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
+[5.995s] Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point
+[6.002s] -- Install configuration: ""
+[6.003s] -- Installing: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/drive_to_point/drive_to_point
+[6.009s] -- Set runtime path of "/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/drive_to_point/drive_to_point" to ""
+[6.010s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/ament_index/resource_index/package_run_dependencies/drive_to_point
+[6.010s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/ament_index/resource_index/parent_prefix_path/drive_to_point
+[6.010s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/ament_prefix_path.sh
+[6.011s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/ament_prefix_path.dsv
+[6.011s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/path.sh
+[6.012s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/path.dsv
+[6.012s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.bash
+[6.012s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.sh
+[6.012s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.zsh
+[6.013s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.dsv
+[6.013s] -- Installing: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.dsv
+[6.014s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/ament_index/resource_index/packages/drive_to_point
+[6.014s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/cmake/drive_to_pointConfig.cmake
+[6.015s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/cmake/drive_to_pointConfig-version.cmake
+[6.015s] -- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.xml
+[6.023s] Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point

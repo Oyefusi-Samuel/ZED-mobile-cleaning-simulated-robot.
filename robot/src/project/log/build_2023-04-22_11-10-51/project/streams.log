@@ -1,0 +1,39 @@
+[0.013s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[0.026s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.196s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.201s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.224s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.345s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.346s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.428s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.457s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.515s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.530s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.530s] -- Configured cppcheck include dirs: 
+[0.530s] -- Configured cppcheck exclude dirs and/or files: 
+[0.542s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.542s] -- Configured cpplint exclude dirs and/or files: 
+[0.545s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.548s] -- Added test 'lint_cmake' to check CMake code style
+[0.550s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.563s] -- Added test 'uncrustify' to check C / C++ code style
+[0.563s] -- Configured uncrustify additional arguments: 
+[0.565s] -- Added test 'xmllint' to check XML markup files
+[0.567s] -- Configuring done
+[0.584s] -- Generating done
+[0.586s] -- Build files have been written to: /home/magnum/simuate_ws/src/robot/src/project/build/project
+[0.602s] [ 12%] [32mBuilding CXX object CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o[0m
+[0.608s] [ 37%] Built target sub
+[0.608s] [ 62%] Built target project
+[0.608s] [ 87%] Built target move
+[0.628s] [100%] [32m[1mLinking CXX executable avoid_obstacle[0m
+[0.687s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.688s] (.text+0x24): undefined reference to `main'
+[0.688s] collect2: error: ld returned 1 exit status
+[0.688s] make[2]: *** [CMakeFiles/avoid_obstacle.dir/build.make:149: avoid_obstacle] Error 1
+[0.688s] make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/avoid_obstacle.dir/all] Error 2
+[0.689s] make: *** [Makefile:146: all] Error 2
+[0.690s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8

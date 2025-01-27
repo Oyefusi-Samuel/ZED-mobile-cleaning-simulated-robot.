@@ -1,0 +1,105 @@
+[0.334s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.335s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fcdb6cd8580>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fcdb6cd8580>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fcdb6cd8ac0>)
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.392s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.393s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'drive_to_point'
+[0.440s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.442s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.497s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install
+[0.499s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/magnum/ros2_ws/install
+[0.514s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 397 installed packages in /opt/ros/foxy
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'cmake_args' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'cmake_target' from command line to 'None'
+[0.700s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'cmake_clean_cache' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'cmake_clean_first' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'cmake_force_configure' from command line to 'False'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'ament_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'catkin_cmake_args' from command line to 'None'
+[0.701s] Level 5:colcon.colcon_core.verb:set package 'drive_to_point' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.701s] DEBUG:colcon.colcon_core.verb:Building package 'drive_to_point' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point', 'merge_install': False, 'path': '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point', 'symlink_install': False, 'test_result_base': None}
+[0.703s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.719s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.720s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point' with build type 'ament_cmake'
+[0.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point'
+[0.728s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
+[11.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
+[11.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point
+[12.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_to_point)
+[12.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point
+[12.026s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point' for CMake module files
+[12.026s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point' for CMake config files
+[12.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_to_point', 'cmake_prefix_path')
+[12.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/hook/cmake_prefix_path.ps1'
+[12.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/hook/cmake_prefix_path.dsv'
+[12.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/hook/cmake_prefix_path.sh'
+[12.044s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib'
+[12.044s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/bin'
+[12.044s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/pkgconfig/drive_to_point.pc'
+[12.045s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/python3.8/site-packages'
+[12.045s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/bin'
+[12.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.ps1'
+[12.059s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.dsv'
+[12.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.sh'
+[12.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.bash'
+[12.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.zsh'
+[12.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/colcon-core/packages/drive_to_point)
+[12.223s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_to_point)
+[12.227s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point' for CMake module files
+[12.228s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point' for CMake config files
+[12.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_to_point', 'cmake_prefix_path')
+[12.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/hook/cmake_prefix_path.ps1'
+[12.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/hook/cmake_prefix_path.dsv'
+[12.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/hook/cmake_prefix_path.sh'
+[12.240s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib'
+[12.240s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/bin'
+[12.240s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/pkgconfig/drive_to_point.pc'
+[12.241s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/python3.8/site-packages'
+[12.241s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/bin'
+[12.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.ps1'
+[12.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.dsv'
+[12.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.sh'
+[12.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.bash'
+[12.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.zsh'
+[12.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/colcon-core/packages/drive_to_point)
+[12.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.256s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.256s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.266s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.267s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.293s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.296s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/local_setup.ps1'
+[12.297s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/_local_setup_util_ps1.py'
+[12.300s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/setup.ps1'
+[12.303s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/local_setup.sh'
+[12.304s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/_local_setup_util_sh.py'
+[12.304s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/setup.sh'
+[12.307s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/local_setup.bash'
+[12.308s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/setup.bash'
+[12.311s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/local_setup.zsh'
+[12.311s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/setup.zsh'

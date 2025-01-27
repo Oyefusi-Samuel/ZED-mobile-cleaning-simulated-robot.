@@ -1,0 +1,27 @@
+[ 25%] Built target project
+[ 37%] [32mBuilding CXX object CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable avoid_obstacle[0m
+[ 50%] Built target avoid_obstacle
+[ 75%] Built target sub
+[100%] Built target move
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/project
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/move
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/sub
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/avoid_obstacle
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/package_run_dependencies/project
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/parent_prefix_path/project
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/path.sh
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/path.dsv
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.bash
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.sh
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.zsh
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.dsv
+-- Symlinking: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/package.dsv
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/packages/project
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/cmake/projectConfig.cmake
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/cmake/projectConfig-version.cmake
+-- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/package.xml

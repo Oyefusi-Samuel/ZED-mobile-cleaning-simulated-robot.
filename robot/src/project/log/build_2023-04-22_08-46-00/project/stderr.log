@@ -1,0 +1,7 @@
+[01m[K/home/magnum/simuate_ws/src/robot/src/project/src/drive_straight.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kcmath.hpp: No such file or directory
+    5 | #include [01;31m[K<cmath.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/drive_straight.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/move.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

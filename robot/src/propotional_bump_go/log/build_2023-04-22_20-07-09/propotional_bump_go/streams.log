@@ -1,0 +1,25 @@
+[0.014s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go -- -j8 -l8
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/bump_go_node.dir/src/bump_go_node.cpp.o[0m
+[3.998s] [100%] [32m[1mLinking CXX executable bump_go_node[0m
+[4.191s] [100%] Built target bump_go_node
+[4.200s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go -- -j8 -l8
+[4.217s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go
+[4.220s] -- Install configuration: ""
+[4.220s] -- Installing: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/lib/propotional_bump_go/bump_go_node
+[4.222s] -- Set runtime path of "/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/lib/propotional_bump_go/bump_go_node" to ""
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/ament_index/resource_index/package_run_dependencies/propotional_bump_go
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/ament_index/resource_index/parent_prefix_path/propotional_bump_go
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/ament_prefix_path.sh
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/ament_prefix_path.dsv
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/path.sh
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/path.dsv
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.bash
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.sh
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.zsh
+[4.222s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.dsv
+[4.223s] -- Installing: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/package.dsv
+[4.223s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/ament_index/resource_index/packages/propotional_bump_go
+[4.223s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/cmake/propotional_bump_goConfig.cmake
+[4.223s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/cmake/propotional_bump_goConfig-version.cmake
+[4.224s] -- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/package.xml
+[4.225s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go

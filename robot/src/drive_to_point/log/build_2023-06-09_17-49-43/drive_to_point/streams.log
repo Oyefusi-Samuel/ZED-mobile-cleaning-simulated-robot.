@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o[0m
+[3.085s] [01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:[m[K In member function ‘[01m[Kvoid RobotController::odomCallback(nav_msgs::msg::Path_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.085s] [01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:31:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct nav_msgs::msg::Path_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Path_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpose[m[K’; did you mean ‘[01m[Kposes[m[K’?
+[3.085s]    31 |     double distance = computeDistance(msg->[01;31m[Kpose[m[K.pose, goal_position_.pose);
+[3.085s]       |                                            [01;31m[K^~~~[m[K
+[3.085s]       |                                            [32m[Kposes[m[K
+[6.113s] make[2]: *** [CMakeFiles/drive_to_point.dir/build.make:76: CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o] Error 1
+[6.114s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drive_to_point.dir/all] Error 2
+[6.114s] make: *** [Makefile:146: all] Error 2
+[6.119s] Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8

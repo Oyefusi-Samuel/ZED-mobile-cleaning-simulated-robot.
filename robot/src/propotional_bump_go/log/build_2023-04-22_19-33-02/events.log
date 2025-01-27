@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000404] (propotional_bump_go) JobQueued: {'identifier': 'propotional_bump_go', 'dependencies': OrderedDict()}
+[0.000489] (propotional_bump_go) JobStarted: {'identifier': 'propotional_bump_go'}
+[0.009154] (propotional_bump_go) JobProgress: {'identifier': 'propotional_bump_go', 'progress': 'cmake'}
+[0.010406] (propotional_bump_go) JobProgress: {'identifier': 'propotional_bump_go', 'progress': 'build'}
+[0.011806] (propotional_bump_go) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go', '--', '-j8', '-l8'], 'cwd': '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2533'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/simuate_ws/src/robot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2360'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3766'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install:/home/magnum/simuate_ws/src/robot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:54995'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2606,unix/robostek:/tmp/.ICE-unix/2606'), ('INVOCATION_ID', 'f762057d80f041d2b6ce6a2fcc9e5ebb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go:/home/magnum/simuate_ws/src/robot/install/robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4bb8e8a6-9b26-4f09-8f0f-2a7cca1dd188'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go:/home/magnum/simuate_ws/src/robot/install/robot:/opt/ros/foxy')]), 'shell': False}
+[0.081547] (-) TimerEvent: {}
+[0.182237] (-) TimerEvent: {}
+[0.186000] (propotional_bump_go) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bump_go_node.dir/src/bump_go_node.cpp.o\x1b[0m\n'}
+[0.282347] (-) TimerEvent: {}
+[0.382817] (-) TimerEvent: {}
+[0.483286] (-) TimerEvent: {}
+[0.583716] (-) TimerEvent: {}
+[0.684182] (-) TimerEvent: {}
+[0.785823] (-) TimerEvent: {}
+[0.887819] (-) TimerEvent: {}
+[0.990283] (-) TimerEvent: {}
+[1.090707] (-) TimerEvent: {}
+[1.191298] (-) TimerEvent: {}
+[1.291885] (-) TimerEvent: {}
+[1.392463] (-) TimerEvent: {}
+[1.493036] (-) TimerEvent: {}
+[1.593541] (-) TimerEvent: {}
+[1.694201] (-) TimerEvent: {}
+[1.794743] (-) TimerEvent: {}
+[1.895511] (-) TimerEvent: {}
+[1.996189] (-) TimerEvent: {}
+[2.096609] (-) TimerEvent: {}
+[2.197205] (-) TimerEvent: {}
+[2.298996] (-) TimerEvent: {}
+[2.399448] (-) TimerEvent: {}
+[2.500090] (-) TimerEvent: {}
+[2.609817] (-) TimerEvent: {}
+[2.710287] (-) TimerEvent: {}
+[2.810714] (-) TimerEvent: {}
+[2.911152] (-) TimerEvent: {}
+[3.012266] (-) TimerEvent: {}
+[3.112931] (-) TimerEvent: {}
+[3.213390] (-) TimerEvent: {}
+[3.313847] (-) TimerEvent: {}
+[3.414261] (-) TimerEvent: {}
+[3.514743] (-) TimerEvent: {}
+[3.615138] (-) TimerEvent: {}
+[3.715537] (-) TimerEvent: {}
+[3.815956] (-) TimerEvent: {}
+[3.916487] (-) TimerEvent: {}
+[4.017410] (-) TimerEvent: {}
+[4.121260] (-) TimerEvent: {}
+[4.221699] (-) TimerEvent: {}
+[4.322150] (-) TimerEvent: {}
+[4.422645] (-) TimerEvent: {}
+[4.523143] (-) TimerEvent: {}
+[4.623737] (-) TimerEvent: {}
+[4.724171] (-) TimerEvent: {}
+[4.824734] (-) TimerEvent: {}
+[4.925247] (-) TimerEvent: {}
+[5.025859] (-) TimerEvent: {}
+[5.126626] (-) TimerEvent: {}
+[5.227321] (-) TimerEvent: {}
+[5.328260] (-) TimerEvent: {}
+[5.429094] (-) TimerEvent: {}
+[5.529728] (-) TimerEvent: {}
+[5.630334] (-) TimerEvent: {}
+[5.730727] (-) TimerEvent: {}
+[5.831313] (-) TimerEvent: {}
+[5.931925] (-) TimerEvent: {}
+[6.032463] (-) TimerEvent: {}
+[6.133865] (-) TimerEvent: {}
+[6.234285] (-) TimerEvent: {}
+[6.334710] (-) TimerEvent: {}
+[6.435137] (-) TimerEvent: {}
+[6.535548] (-) TimerEvent: {}
+[6.635954] (-) TimerEvent: {}
+[6.736594] (-) TimerEvent: {}
+[6.837262] (-) TimerEvent: {}
+[6.937916] (-) TimerEvent: {}
+[7.038474] (-) TimerEvent: {}
+[7.139090] (-) TimerEvent: {}
+[7.239758] (-) TimerEvent: {}
+[7.340629] (-) TimerEvent: {}
+[7.441276] (-) TimerEvent: {}
+[7.541838] (-) TimerEvent: {}
+[7.642480] (-) TimerEvent: {}
+[7.743061] (-) TimerEvent: {}
+[7.843565] (-) TimerEvent: {}
+[7.944246] (-) TimerEvent: {}
+[8.044870] (-) TimerEvent: {}
+[8.145312] (-) TimerEvent: {}
+[8.245663] (-) TimerEvent: {}
+[8.346054] (-) TimerEvent: {}
+[8.446392] (-) TimerEvent: {}
+[8.547034] (-) TimerEvent: {}
+[8.647477] (-) TimerEvent: {}
+[8.747885] (-) TimerEvent: {}
+[8.848362] (-) TimerEvent: {}
+[8.948833] (-) TimerEvent: {}
+[9.049277] (-) TimerEvent: {}
+[9.150072] (-) TimerEvent: {}
+[9.251140] (-) TimerEvent: {}
+[9.351692] (-) TimerEvent: {}
+[9.457870] (-) TimerEvent: {}
+[9.558361] (-) TimerEvent: {}
+[9.658903] (-) TimerEvent: {}
+[9.759372] (-) TimerEvent: {}
+[9.860815] (-) TimerEvent: {}
+[9.977795] (propotional_bump_go) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bump_go_node\x1b[0m\n'}
+[9.978128] (-) TimerEvent: {}
+[10.078862] (-) TimerEvent: {}
+[10.182731] (-) TimerEvent: {}
+[10.283191] (-) TimerEvent: {}
+[10.387599] (-) TimerEvent: {}
+[10.488147] (-) TimerEvent: {}
+[10.519714] (propotional_bump_go) StdoutLine: {'line': b'[100%] Built target bump_go_node\n'}
+[10.541171] (propotional_bump_go) CommandEnded: {'returncode': 0}
+[10.588324] (-) TimerEvent: {}
+[10.626526] (propotional_bump_go) JobProgress: {'identifier': 'propotional_bump_go', 'progress': 'install'}
+[10.639836] (propotional_bump_go) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go'], 'cwd': '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2533'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/simuate_ws/src/robot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2360'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3766'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install:/home/magnum/simuate_ws/src/robot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:54995'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2606,unix/robostek:/tmp/.ICE-unix/2606'), ('INVOCATION_ID', 'f762057d80f041d2b6ce6a2fcc9e5ebb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go:/home/magnum/simuate_ws/src/robot/install/robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4bb8e8a6-9b26-4f09-8f0f-2a7cca1dd188'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go:/home/magnum/simuate_ws/src/robot/install/robot:/opt/ros/foxy')]), 'shell': False}
+[10.651885] (propotional_bump_go) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.652185] (propotional_bump_go) StdoutLine: {'line': b'-- Installing: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/lib/propotional_bump_go/bump_go_node\n'}
+[10.652309] (propotional_bump_go) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/lib/propotional_bump_go/bump_go_node" to ""\n'}
+[10.652416] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/ament_index/resource_index/package_run_dependencies/propotional_bump_go\n'}
+[10.652526] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/ament_index/resource_index/parent_prefix_path/propotional_bump_go\n'}
+[10.652630] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/ament_prefix_path.sh\n'}
+[10.652735] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/ament_prefix_path.dsv\n'}
+[10.652847] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/path.sh\n'}
+[10.652955] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/environment/path.dsv\n'}
+[10.653064] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.bash\n'}
+[10.653172] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.sh\n'}
+[10.653292] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.zsh\n'}
+[10.653397] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/local_setup.dsv\n'}
+[10.653504] (propotional_bump_go) StdoutLine: {'line': b'-- Installing: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/package.dsv\n'}
+[10.653613] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/ament_index/resource_index/packages/propotional_bump_go\n'}
+[10.653719] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/cmake/propotional_bump_goConfig.cmake\n'}
+[10.653835] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/cmake/propotional_bump_goConfig-version.cmake\n'}
+[10.653945] (propotional_bump_go) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go/share/propotional_bump_go/package.xml\n'}
+[10.662815] (propotional_bump_go) CommandEnded: {'returncode': 0}
+[10.688450] (-) TimerEvent: {}
+[10.788872] (-) TimerEvent: {}
+[10.809175] (propotional_bump_go) JobEnded: {'identifier': 'propotional_bump_go', 'rc': 0}
+[10.810157] (-) EventReactorShutdown: {}

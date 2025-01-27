@@ -1,0 +1,21 @@
+[0.682s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/drive_robot': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/drive_robot/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/drive_robot build --build-base /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build install --record /home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log --install-scripts $base/lib/drive_robot --single-version-externally-managed
+[0.847s] running egg_info
+[0.848s] writing ../build/drive_robot/drive_robot.egg-info/PKG-INFO
+[0.848s] writing dependency_links to ../build/drive_robot/drive_robot.egg-info/dependency_links.txt
+[0.848s] writing entry points to ../build/drive_robot/drive_robot.egg-info/entry_points.txt
+[0.848s] writing requirements to ../build/drive_robot/drive_robot.egg-info/requires.txt
+[0.848s] writing top-level names to ../build/drive_robot/drive_robot.egg-info/top_level.txt
+[0.873s] reading manifest file '../build/drive_robot/drive_robot.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../build/drive_robot/drive_robot.egg-info/SOURCES.txt'
+[0.874s] running build
+[0.874s] running build_py
+[0.874s] running install
+[0.874s] running install_lib
+[0.875s] running install_data
+[0.876s] running install_egg_info
+[0.877s] removing '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot-0.0.0-py3.8.egg-info' (and everything under it)
+[0.877s] Copying ../build/drive_robot/drive_robot.egg-info to /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot-0.0.0-py3.8.egg-info
+[0.878s] running install_scripts
+[0.889s] Installing velocity_drive script to /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/drive_robot
+[0.889s] writing list of installed files to '/home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log'
+[0.909s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/drive_robot' returned '0': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/drive_robot/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/drive_robot build --build-base /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build install --record /home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log --install-scripts $base/lib/drive_robot --single-version-externally-managed

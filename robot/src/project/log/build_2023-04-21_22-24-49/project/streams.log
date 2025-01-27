@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/project.dir/src/pub.cpp.o[0m
+[2.252s] [100%] [32m[1mLinking CXX executable project[0m
+[2.368s] [100%] Built target project
+[2.378s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[2.400s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/src/project/build/project
+[2.403s] -- Install configuration: ""
+[2.404s] -- Execute custom install script
+[2.404s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/project
+[2.404s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/package_run_dependencies/project
+[2.405s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/parent_prefix_path/project
+[2.405s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/ament_prefix_path.sh
+[2.405s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/ament_prefix_path.dsv
+[2.405s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/path.sh
+[2.405s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/path.dsv
+[2.406s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.bash
+[2.406s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.sh
+[2.406s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.zsh
+[2.406s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.dsv
+[2.406s] -- Symlinking: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/package.dsv
+[2.409s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/packages/project
+[2.409s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/cmake/projectConfig.cmake
+[2.409s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/cmake/projectConfig-version.cmake
+[2.410s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/package.xml
+[2.412s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/src/project/build/project

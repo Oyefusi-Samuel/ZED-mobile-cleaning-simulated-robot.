@@ -1,0 +1,10 @@
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/uninstall.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/propotional_bump_go_uninstall.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/bump_go_node.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/test.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/edit_cache.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/rebuild_cache.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/list_install_components.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/install.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/install/local.dir
+/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go/CMakeFiles/install/strip.dir

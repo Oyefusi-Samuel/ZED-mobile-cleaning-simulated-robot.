@@ -1,0 +1,32 @@
+[0.015s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker
+[0.023s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.046s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.231s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.261s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.398s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.400s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.506s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.583s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.633s] [31mCMake Error at CMakeLists.txt:31 (install):
+[0.633s]   install TARGETS given target "visual_node" which does not exist.
+[0.633s] 
+[0.633s] [0m
+[0.633s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.687s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.692s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.692s] -- Configured cppcheck include dirs: 
+[0.692s] -- Configured cppcheck exclude dirs and/or files: 
+[0.696s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.696s] -- Configured cpplint exclude dirs and/or files: 
+[0.697s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.698s] -- Added test 'lint_cmake' to check CMake code style
+[0.699s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.703s] -- Added test 'uncrustify' to check C / C++ code style
+[0.703s] -- Configured uncrustify additional arguments: 
+[0.704s] -- Added test 'xmllint' to check XML markup files
+[0.704s] -- Configuring incomplete, errors occurred!
+[0.704s] See also "/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/CMakeOutput.log".
+[0.705s] See also "/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/CMakeError.log".
+[0.711s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker

@@ -1,0 +1,553 @@
+[0.062s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go -- -j8 -l8
+[0.153s] [ 50%] [32mBuilding CXX object CMakeFiles/bump_go_node.dir/src/bump_go_node.cpp.o[0m
+[2.483s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:[m[K In member function ‘[01m[Kvoid bump_go_cpp::bump_go::control_cycle()[m[K’:
+[2.483s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;31m[Kerror: [m[Kconverting to ‘[01m[Kbool[m[K’ from ‘[01m[Kstd::nullptr_t[m[K’ requires direct-initialization [[01;31m[K-fpermissive[m[K]
+[2.484s]    42 |             if (last_scan == ![01;31m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.484s]       |                               [01;31m[K^~~~~~~[m[K
+[2.484s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:27:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} and ‘[01m[Kbool[m[K’)
+[2.484s]    42 |             if ([01;31m[Klast_scan == !nullptr[m[K){ //do nothing until the first sensor reads
+[2.484s]       |                 [01;31m[K~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.484s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:27:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator==(int, int)[m[K’ <built-in>
+[2.485s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:27:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} to ‘[01m[Kint[m[K’
+[2.485s] In file included from [01m[K/usr/include/c++/9/utility:70[m[K,
+[2.485s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:1[m[K:
+[2.485s] [01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[2.485s]   448 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[2.485s]       |     [01;36m[K^~~~~~~~[m[K
+[2.486s] [01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.486s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[2.486s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.486s]       |                               [01;36m[K^~~~~~~[m[K
+[2.486s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[2.486s]                  from [01m[K/usr/include/c++/9/algorithm:61[m[K,
+[2.486s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+[2.486s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.487s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.487s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.487s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.487s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[2.488s]   325 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+[2.488s]       |     [01;36m[K^~~~~~~~[m[K
+[2.488s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.488s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[2.488s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.488s]       |                               [01;36m[K^~~~~~~[m[K
+[2.489s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[2.489s]                  from [01m[K/usr/include/c++/9/algorithm:61[m[K,
+[2.489s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+[2.489s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.490s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.490s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.490s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.490s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[2.491s]   363 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+[2.491s]       |     [01;36m[K^~~~~~~~[m[K
+[2.491s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.492s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[2.492s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.492s]       |                               [01;36m[K^~~~~~~[m[K
+[2.492s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[2.493s]                  from [01m[K/usr/include/c++/9/algorithm:61[m[K,
+[2.493s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+[2.493s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.493s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.494s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.494s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.494s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[2.494s]  1136 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+[2.495s]       |     [01;36m[K^~~~~~~~[m[K
+[2.498s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.499s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[2.499s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.499s]       |                               [01;36m[K^~~~~~~[m[K
+[2.499s] In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+[2.499s]                  from [01m[K/usr/include/c++/9/algorithm:61[m[K,
+[2.500s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18[m[K,
+[2.500s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.500s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.500s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.500s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.500s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[2.501s]  1142 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+[2.501s]       |     [01;36m[K^~~~~~~~[m[K
+[2.501s] [01m[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.501s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[2.501s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.501s]       |                               [01;36m[K^~~~~~~[m[K
+[2.501s] In file included from [01m[K/usr/include/c++/9/memory:63[m[K,
+[2.501s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.502s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.502s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.502s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.502s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.502s] [01m[K/usr/include/c++/9/bits/allocator.h:167:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp>&, const std::allocator<_Tp>&)[m[K’
+[2.502s]   167 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+[2.502s]       |     [01;36m[K^~~~~~~~[m[K
+[2.502s] [01m[K/usr/include/c++/9/bits/allocator.h:167:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.502s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::allocator<_Tp>[m[K’
+[2.503s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.503s]       |                               [01;36m[K^~~~~~~[m[K
+[2.503s] In file included from [01m[K/usr/include/c++/9/iosfwd:40[m[K,
+[2.503s]                  from [01m[K/usr/include/c++/9/memory:72[m[K,
+[2.503s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.503s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.503s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.503s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.503s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.503s] [01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+[2.503s]   222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+[2.503s]       |     [01;36m[K^~~~~~~~[m[K
+[2.503s] [01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.503s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+[2.503s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.504s]       |                               [01;36m[K^~~~~~~[m[K
+[2.504s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[2.504s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[2.504s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[2.504s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.504s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.504s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.504s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.504s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.504s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.504s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.504s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.504s] [01m[K/usr/include/c++/9/bits/basic_string.h:6144:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[2.504s]  6144 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[2.504s]       |     [01;36m[K^~~~~~~~[m[K
+[2.505s] [01m[K/usr/include/c++/9/bits/basic_string.h:6144:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.505s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+[2.505s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.505s]       |                               [01;36m[K^~~~~~~[m[K
+[2.505s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[2.505s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[2.505s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[2.505s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.505s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.505s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.505s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.505s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.506s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.506s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.506s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.506s] [01m[K/usr/include/c++/9/bits/basic_string.h:6152:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+[2.506s]  6152 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+[2.506s]       |     [01;36m[K^~~~~~~~[m[K
+[2.506s] [01m[K/usr/include/c++/9/bits/basic_string.h:6152:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.506s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’
+[2.506s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.506s]       |                               [01;36m[K^~~~~~~[m[K
+[2.507s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[2.507s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[2.507s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[2.507s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.507s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.507s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.507s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.507s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.507s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.507s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.508s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.508s] [01m[K/usr/include/c++/9/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[2.508s]  6166 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+[2.508s]       |     [01;36m[K^~~~~~~~[m[K
+[2.508s] [01m[K/usr/include/c++/9/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.508s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’
+[2.508s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.508s]       |                               [01;36m[K^~~~~~~[m[K
+[2.508s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[2.508s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[2.509s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[2.509s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.509s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.509s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.509s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.509s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.509s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.509s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.509s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.510s] [01m[K/usr/include/c++/9/bits/basic_string.h:6178:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)[m[K’
+[2.510s]  6178 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[2.510s]       |     [01;36m[K^~~~~~~~[m[K
+[2.510s] [01m[K/usr/include/c++/9/bits/basic_string.h:6178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.510s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+[2.510s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.510s]       |                               [01;36m[K^~~~~~~[m[K
+[2.510s] In file included from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.510s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.510s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.510s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.510s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.511s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.511s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.511s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.511s] [01m[K/usr/include/c++/9/array:252:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[2.511s]   252 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+[2.511s]       |     [01;36m[K^~~~~~~~[m[K
+[2.511s] [01m[K/usr/include/c++/9/array:252:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.511s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[2.511s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.511s]       |                               [01;36m[K^~~~~~~[m[K
+[2.511s] In file included from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.511s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.511s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.511s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.512s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.512s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.512s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.512s] [01m[K/usr/include/c++/9/tuple:1419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)[m[K’
+[2.512s]  1419 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+[2.512s]       |     [01;36m[K^~~~~~~~[m[K
+[2.512s] [01m[K/usr/include/c++/9/tuple:1419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.512s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[2.512s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.512s]       |                               [01;36m[K^~~~~~~[m[K
+[2.512s] In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.512s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.512s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.513s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.513s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.513s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.513s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:715:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[2.513s]   715 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+[2.513s]       |     [01;36m[K^~~~~~~~[m[K
+[2.513s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:715:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.513s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Up, _Ep>[m[K’ and ‘[01m[Kbool[m[K’
+[2.514s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.514s]       |                               [01;36m[K^~~~~~~[m[K
+[2.514s] In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.514s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.514s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.514s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.515s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.515s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.515s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:721:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[2.515s]   721 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+[2.515s]       |     [01;36m[K^~~~~~~~[m[K
+[2.515s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:721:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.516s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Ktrue[m[K’ (type ‘[01m[Kbool[m[K’) to type ‘[01m[Kstd::nullptr_t[m[K’
+[2.516s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.516s]       |                               [01;36m[K^~~~~~~[m[K
+[2.516s] In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.516s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.516s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.517s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.517s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.517s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.517s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:726:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[2.517s]   726 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+[2.517s]       |     [01;36m[K^~~~~~~~[m[K
+[2.517s] [01m[K/usr/include/c++/9/bits/unique_ptr.h:726:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.517s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kbool[m[K’
+[2.518s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.518s]       |                               [01;36m[K^~~~~~~[m[K
+[2.518s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[2.518s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.518s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.519s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.519s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.519s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.519s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.519s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[2.520s]  1412 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+[2.520s]       |     [01;36m[K^~~~~~~~[m[K
+[2.520s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.520s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[2.520s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.520s]       |                               [01;36m[K^~~~~~~[m[K
+[2.521s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[2.521s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.521s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.521s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.521s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.521s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.521s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.521s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[2.521s]  1418 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[2.522s]       |     [01;36m[K^~~~~~~~[m[K
+[2.522s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.522s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[2.522s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.523s]       |                               [01;36m[K^~~~~~~[m[K
+[2.523s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[2.523s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.523s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.523s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.524s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.524s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.524s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.524s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[2.524s]  1423 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[2.524s]       |     [01;36m[K^~~~~~~~[m[K
+[2.525s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.525s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Kbool[m[K’
+[2.525s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.525s]       |                               [01;36m[K^~~~~~~[m[K
+[2.525s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.525s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.525s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.525s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.525s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.525s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.525s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:383:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[2.525s]   383 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[2.525s]       |     [01;36m[K^~~~~~~~[m[K
+[2.526s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:383:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.526s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[2.526s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.526s]       |                               [01;36m[K^~~~~~~[m[K
+[2.526s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.526s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.526s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.526s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.526s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.526s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.526s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:388:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[2.527s]   388 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[2.527s]       |     [01;36m[K^~~~~~~~[m[K
+[2.527s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:388:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.527s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[2.527s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.528s]       |                               [01;36m[K^~~~~~~[m[K
+[2.528s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.528s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19[m[K,
+[2.528s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.528s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.528s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.528s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.528s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:393:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[2.529s]   393 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[2.529s]       |     [01;36m[K^~~~~~~~[m[K
+[2.529s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:393:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.529s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kbool[m[K’
+[2.529s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.529s]       |                               [01;36m[K^~~~~~~[m[K
+[2.529s] In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+[2.530s]                  from [01m[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:22[m[K,
+[2.530s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8[m[K,
+[2.530s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7[m[K,
+[2.530s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2[m[K,
+[2.530s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.530s] [01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[2.531s]  1888 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[2.531s]       |     [01;36m[K^~~~~~~~[m[K
+[2.531s] [01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.531s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[2.531s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.532s]       |                               [01;36m[K^~~~~~~[m[K
+[2.532s] In file included from [01m[K/usr/include/c++/9/mutex:42[m[K,
+[2.532s]                  from [01m[K/usr/include/c++/9/future:38[m[K,
+[2.532s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[2.532s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.532s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.533s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.533s] [01m[K/usr/include/c++/9/system_error:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+[2.533s]   292 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+[2.533s]       |   [01;36m[K^~~~~~~~[m[K
+[2.533s] [01m[K/usr/include/c++/9/system_error:292:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[2.533s]   292 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[2.534s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.534s] [01m[K/usr/include/c++/9/system_error:297:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+[2.534s]   297 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+[2.534s]       |   [01;36m[K^~~~~~~~[m[K
+[2.534s] [01m[K/usr/include/c++/9/system_error:297:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+[2.534s]   297 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+[2.535s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.535s] [01m[K/usr/include/c++/9/system_error:304:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+[2.535s]   304 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+[2.535s]       |   [01;36m[K^~~~~~~~[m[K
+[2.535s] [01m[K/usr/include/c++/9/system_error:304:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[2.535s]   304 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+[2.536s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.536s] [01m[K/usr/include/c++/9/system_error:311:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+[2.536s]   311 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+[2.536s]       |   [01;36m[K^~~~~~~~[m[K
+[2.536s] [01m[K/usr/include/c++/9/system_error:311:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+[2.537s]   311 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+[2.537s]       |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[2.537s] In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+[2.537s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[2.537s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.537s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.537s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.538s] [01m[K/usr/include/c++/9/thread:276:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+[2.538s]   276 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+[2.538s]       |   [01;36m[K^~~~~~~~[m[K
+[2.538s] [01m[K/usr/include/c++/9/thread:276:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+[2.538s]   276 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[2.539s]       |              [01;36m[K~~~~~~~~~~~^~~[m[K
+[2.539s] In file included from [01m[K/usr/include/c++/9/future:48[m[K,
+[2.539s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[2.539s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.539s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.539s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.540s] [01m[K/usr/include/c++/9/bits/std_function.h:746:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+[2.540s]   746 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+[2.540s]       |     [01;36m[K^~~~~~~~[m[K
+[2.540s] [01m[K/usr/include/c++/9/bits/std_function.h:746:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.541s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+[2.541s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.541s]       |                               [01;36m[K^~~~~~~[m[K
+[2.541s] In file included from [01m[K/usr/include/c++/9/future:48[m[K,
+[2.541s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[2.541s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.542s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.542s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.542s] [01m[K/usr/include/c++/9/bits/std_function.h:752:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+[2.542s]   752 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+[2.542s]       |     [01;36m[K^~~~~~~~[m[K
+[2.543s] [01m[K/usr/include/c++/9/bits/std_function.h:752:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.543s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Kbool[m[K’
+[2.543s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.543s]       |                               [01;36m[K^~~~~~~[m[K
+[2.543s] In file included from [01m[K/usr/include/c++/9/set:61[m[K,
+[2.543s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[2.544s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.544s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.544s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.544s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.544s] [01m[K/usr/include/c++/9/bits/stl_set.h:979:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)[m[K’
+[2.544s]   979 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+[2.545s]       |     [01;36m[K^~~~~~~~[m[K
+[2.545s] [01m[K/usr/include/c++/9/bits/stl_set.h:979:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.545s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Alloc>[m[K’
+[2.545s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.545s]       |                               [01;36m[K^~~~~~~[m[K
+[2.545s] In file included from [01m[K/usr/include/c++/9/set:62[m[K,
+[2.546s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[2.546s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.546s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.546s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.546s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.546s] [01m[K/usr/include/c++/9/bits/stl_multiset.h:964:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)[m[K’
+[2.546s]   964 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+[2.547s]       |     [01;36m[K^~~~~~~~[m[K
+[2.547s] [01m[K/usr/include/c++/9/bits/stl_multiset.h:964:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.547s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Alloc>[m[K’
+[2.547s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.547s]       |                               [01;36m[K^~~~~~~[m[K
+[2.547s] In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+[2.547s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:23[m[K,
+[2.547s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.548s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.548s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.548s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.548s] [01m[K/usr/include/c++/9/bits/unordered_map.h:2093:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator==(const std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>&, const std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>&)[m[K’
+[2.548s]  2093 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[2.548s]       |     [01;36m[K^~~~~~~~[m[K
+[2.548s] [01m[K/usr/include/c++/9/bits/unordered_map.h:2093:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.548s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>[m[K’
+[2.549s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.549s]       |                               [01;36m[K^~~~~~~[m[K
+[2.549s] In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+[2.549s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:23[m[K,
+[2.549s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.549s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.550s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.550s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.550s] [01m[K/usr/include/c++/9/bits/unordered_map.h:2105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator==(const std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>&, const std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>&)[m[K’
+[2.550s]  2105 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+[2.550s]       |     [01;36m[K^~~~~~~~[m[K
+[2.550s] [01m[K/usr/include/c++/9/bits/unordered_map.h:2105:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.551s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>[m[K’
+[2.551s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.551s]       |                               [01;36m[K^~~~~~~[m[K
+[2.551s] In file included from [01m[K/usr/include/c++/9/bits/locale_facets.h:48[m[K,
+[2.551s]                  from [01m[K/usr/include/c++/9/bits/basic_ios.h:37[m[K,
+[2.552s]                  from [01m[K/usr/include/c++/9/ios:44[m[K,
+[2.552s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[2.552s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:22[m[K,
+[2.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.552s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.553s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.553s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.553s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.553s] [01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+[2.553s]   208 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+[2.553s]       |     [01;36m[K^~~~~~~~[m[K
+[2.554s] [01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.554s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+[2.554s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.554s]       |                               [01;36m[K^~~~~~~[m[K
+[2.554s] In file included from [01m[K/usr/include/c++/9/list:63[m[K,
+[2.554s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:23[m[K,
+[2.555s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.555s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.555s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.555s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.555s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.555s] [01m[K/usr/include/c++/9/bits/stl_list.h:1991:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[2.556s]  1991 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[2.556s]       |     [01;36m[K^~~~~~~~[m[K
+[2.556s] [01m[K/usr/include/c++/9/bits/stl_list.h:1991:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.556s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[2.556s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.556s]       |                               [01;36m[K^~~~~~~[m[K
+[2.557s] In file included from [01m[K/usr/include/c++/9/map:61[m[K,
+[2.557s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:20[m[K,
+[2.557s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.557s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.557s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.557s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.558s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.558s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.558s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.558s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.558s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.558s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.559s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.559s] [01m[K/usr/include/c++/9/bits/stl_map.h:1455:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)[m[K’
+[2.559s]  1455 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[2.559s]       |     [01;36m[K^~~~~~~~[m[K
+[2.559s] [01m[K/usr/include/c++/9/bits/stl_map.h:1455:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.560s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Alloc>[m[K’
+[2.560s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.560s]       |                               [01;36m[K^~~~~~~[m[K
+[2.560s] In file included from [01m[K/usr/include/c++/9/map:62[m[K,
+[2.560s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:20[m[K,
+[2.560s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.561s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.561s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.561s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.561s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.561s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.561s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.562s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.562s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.562s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.562s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.562s] [01m[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)[m[K’
+[2.562s]  1119 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[2.563s]       |     [01;36m[K^~~~~~~~[m[K
+[2.563s] [01m[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.563s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Alloc>[m[K’
+[2.563s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.563s]       |                               [01;36m[K^~~~~~~[m[K
+[2.563s] In file included from [01m[K/usr/include/c++/9/iterator:66[m[K,
+[2.564s]                  from [01m[K/opt/ros/foxy/include/rcpputils/join.hpp:23[m[K,
+[2.564s]                  from [01m[K/opt/ros/foxy/include/rclcpp/exceptions/exceptions.hpp:26[m[K,
+[2.564s]                  from [01m[K/opt/ros/foxy/include/rclcpp/exceptions.hpp:18[m[K,
+[2.564s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:31[m[K,
+[2.564s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.564s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.565s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.565s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.565s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.565s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.565s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.565s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.566s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.566s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4[m[K,
+[2.566s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2[m[K:
+[2.566s] [01m[K/usr/include/c++/9/bits/stream_iterator.h:134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)[m[K’
+[2.566s]   134 |     [01;36m[Koperator[m[K==(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+[2.566s]       |     [01;36m[K^~~~~~~~[m[K
+[2.567s] [01m[K/usr/include/c++/9/bits/stream_iterator.h:134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.567s] [01m[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr[m[K’ {aka ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} is not derived from ‘[01m[Kconst std::istream_iterator<_Tp, _CharT, _Traits, _Dist>[m[K’
+[2.567s]    42 |             if (last_scan == ![01;36m[Knullptr[m[K){ //do nothing until the first sensor reads
+[2.567s]       |                               [01;36m[K^~~~~~~[m[K
+[5.326s] make[2]: *** [CMakeFiles/bump_go_node.dir/build.make:76: CMakeFiles/bump_go_node.dir/src/bump_go_node.cpp.o] Error 1
+[5.326s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bump_go_node.dir/all] Error 2
+[5.326s] make: *** [Makefile:146: all] Error 2
+[5.331s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go -- -j8 -l8

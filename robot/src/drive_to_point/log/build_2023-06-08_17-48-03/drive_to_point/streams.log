@@ -1,0 +1,13 @@
+[0.022s] Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o[0m
+[0.959s] [01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:16:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KNavigateGoal::[m[K’ on member ‘[01m[KcontrolCycle[m[K’ [[01;31m[K-fpermissive[m[K]
+[0.959s]    16 |     void [01;31m[KNavigateGoal[m[K::controlCycle() {
+[0.959s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.973s] [01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:[m[K In member function ‘[01m[Kvoid NavigateGoal::controlCycle()[m[K’:
+[0.973s] [01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:23:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav2_msgs::action::NavigateToPose::Goal[m[K’ {aka ‘[01m[Knav2_msgs::action::NavigateToPose_Goal_<std::allocator<void> >[m[K’}
+[0.973s]    23 |         navigateGoalPublisher->publish(goalState[01;31m[K->[m[Kgoal)
+[0.973s]       |                                                 [01;31m[K^~[m[K
+[1.635s] make[2]: *** [CMakeFiles/drive_to_point.dir/build.make:76: CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o] Error 1
+[1.635s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drive_to_point.dir/all] Error 2
+[1.635s] make: *** [Makefile:146: all] Error 2
+[1.636s] Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8

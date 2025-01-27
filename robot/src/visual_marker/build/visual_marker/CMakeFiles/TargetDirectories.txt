@@ -1,0 +1,10 @@
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/uninstall.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/visual_marker_uninstall.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/visual.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/test.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/edit_cache.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/rebuild_cache.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/list_install_components.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/install.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/install/local.dir
+/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/install/strip.dir

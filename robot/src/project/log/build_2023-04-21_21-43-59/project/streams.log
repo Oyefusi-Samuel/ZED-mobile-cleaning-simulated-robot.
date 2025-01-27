@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[0.023s] [31mCMake Error at CMakeLists.txt:21 (ament_target_dependecies):
+[0.023s]   Unknown CMake command "ament_target_dependecies".
+[0.023s] 
+[0.023s] [0m
+[0.023s] -- Configuring incomplete, errors occurred!
+[0.023s] See also "/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles/CMakeOutput.log".
+[0.023s] See also "/home/magnum/simuate_ws/src/robot/src/project/build/project/CMakeFiles/CMakeError.log".
+[0.024s] make: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.025s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8

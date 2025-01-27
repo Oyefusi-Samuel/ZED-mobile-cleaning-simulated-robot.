@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000433] (drive_to_point) JobQueued: {'identifier': 'drive_to_point', 'dependencies': OrderedDict()}
+[0.000536] (drive_to_point) JobStarted: {'identifier': 'drive_to_point'}
+[0.052171] (drive_to_point) JobProgress: {'identifier': 'drive_to_point', 'progress': 'cmake'}
+[0.052362] (drive_to_point) JobProgress: {'identifier': 'drive_to_point', 'progress': 'build'}
+[0.059339] (drive_to_point) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point', '--', '-j8', '-l8'], 'cwd': '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2518'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3081'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install:/home/magnum/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:52088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2588,unix/robostek:/tmp/.ICE-unix/2588'), ('INVOCATION_ID', '1ec028686af6482f94fac00e3087f0b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point:/home/magnum/ros2_ws/install/robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d62a449-bafe-40a2-a098-7fe37026d9d7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point:/home/magnum/ros2_ws/install/robot:/opt/ros/foxy')]), 'shell': False}
+[0.080083] (-) TimerEvent: {}
+[0.180604] (-) TimerEvent: {}
+[0.266593] (drive_to_point) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o\x1b[0m\n'}
+[0.280739] (-) TimerEvent: {}
+[0.381591] (-) TimerEvent: {}
+[0.482117] (-) TimerEvent: {}
+[0.582999] (-) TimerEvent: {}
+[0.683428] (-) TimerEvent: {}
+[0.784085] (-) TimerEvent: {}
+[0.884555] (-) TimerEvent: {}
+[0.985147] (-) TimerEvent: {}
+[1.085774] (-) TimerEvent: {}
+[1.186305] (-) TimerEvent: {}
+[1.288475] (-) TimerEvent: {}
+[1.390557] (-) TimerEvent: {}
+[1.490981] (-) TimerEvent: {}
+[1.591868] (-) TimerEvent: {}
+[1.692544] (-) TimerEvent: {}
+[1.793225] (-) TimerEvent: {}
+[1.893759] (-) TimerEvent: {}
+[1.994479] (-) TimerEvent: {}
+[2.096109] (-) TimerEvent: {}
+[2.196544] (-) TimerEvent: {}
+[2.296977] (-) TimerEvent: {}
+[2.397387] (-) TimerEvent: {}
+[2.505880] (-) TimerEvent: {}
+[2.606520] (-) TimerEvent: {}
+[2.706898] (-) TimerEvent: {}
+[2.807307] (-) TimerEvent: {}
+[2.907971] (-) TimerEvent: {}
+[3.008380] (-) TimerEvent: {}
+[3.110295] (-) TimerEvent: {}
+[3.210748] (-) TimerEvent: {}
+[3.311172] (-) TimerEvent: {}
+[3.412838] (-) TimerEvent: {}
+[3.513449] (-) TimerEvent: {}
+[3.614025] (-) TimerEvent: {}
+[3.714661] (-) TimerEvent: {}
+[3.818356] (-) TimerEvent: {}
+[3.918790] (-) TimerEvent: {}
+[4.019451] (-) TimerEvent: {}
+[4.120112] (-) TimerEvent: {}
+[4.220501] (-) TimerEvent: {}
+[4.320907] (-) TimerEvent: {}
+[4.422287] (-) TimerEvent: {}
+[4.522721] (-) TimerEvent: {}
+[4.623112] (-) TimerEvent: {}
+[4.723662] (-) TimerEvent: {}
+[4.824469] (-) TimerEvent: {}
+[4.924944] (-) TimerEvent: {}
+[5.025402] (-) TimerEvent: {}
+[5.125848] (-) TimerEvent: {}
+[5.226424] (-) TimerEvent: {}
+[5.327233] (-) TimerEvent: {}
+[5.427836] (-) TimerEvent: {}
+[5.528262] (-) TimerEvent: {}
+[5.628790] (-) TimerEvent: {}
+[5.729456] (-) TimerEvent: {}
+[5.829898] (-) TimerEvent: {}
+[5.930325] (-) TimerEvent: {}
+[6.030785] (-) TimerEvent: {}
+[6.131466] (-) TimerEvent: {}
+[6.232242] (-) TimerEvent: {}
+[6.332684] (-) TimerEvent: {}
+[6.433231] (-) TimerEvent: {}
+[6.534593] (-) TimerEvent: {}
+[6.635038] (-) TimerEvent: {}
+[6.736597] (-) TimerEvent: {}
+[6.843766] (-) TimerEvent: {}
+[6.944371] (-) TimerEvent: {}
+[7.045008] (-) TimerEvent: {}
+[7.147504] (-) TimerEvent: {}
+[7.247913] (-) TimerEvent: {}
+[7.348484] (-) TimerEvent: {}
+[7.449100] (-) TimerEvent: {}
+[7.549658] (-) TimerEvent: {}
+[7.650258] (-) TimerEvent: {}
+[7.750761] (-) TimerEvent: {}
+[7.857275] (-) TimerEvent: {}
+[7.957699] (-) TimerEvent: {}
+[8.058133] (-) TimerEvent: {}
+[8.158554] (-) TimerEvent: {}
+[8.258950] (-) TimerEvent: {}
+[8.359356] (-) TimerEvent: {}
+[8.459751] (-) TimerEvent: {}
+[8.560149] (-) TimerEvent: {}
+[8.660576] (-) TimerEvent: {}
+[8.761038] (-) TimerEvent: {}
+[8.861466] (-) TimerEvent: {}
+[8.962039] (-) TimerEvent: {}
+[9.063685] (-) TimerEvent: {}
+[9.164079] (-) TimerEvent: {}
+[9.264557] (-) TimerEvent: {}
+[9.364988] (-) TimerEvent: {}
+[9.468663] (-) TimerEvent: {}
+[9.570571] (-) TimerEvent: {}
+[9.671053] (-) TimerEvent: {}
+[9.771490] (-) TimerEvent: {}
+[9.873196] (-) TimerEvent: {}
+[9.973623] (-) TimerEvent: {}
+[10.074541] (-) TimerEvent: {}
+[10.186216] (-) TimerEvent: {}
+[10.286626] (-) TimerEvent: {}
+[10.391982] (drive_to_point) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drive_to_point\x1b[0m\n'}
+[10.392331] (-) TimerEvent: {}
+[10.492655] (-) TimerEvent: {}
+[10.593264] (-) TimerEvent: {}
+[10.693841] (-) TimerEvent: {}
+[10.794516] (-) TimerEvent: {}
+[10.903407] (-) TimerEvent: {}
+[10.994519] (drive_to_point) StdoutLine: {'line': b'[100%] Built target drive_to_point\n'}
+[11.003525] (-) TimerEvent: {}
+[11.035284] (drive_to_point) CommandEnded: {'returncode': 0}
+[11.103662] (-) TimerEvent: {}
+[11.176019] (drive_to_point) JobProgress: {'identifier': 'drive_to_point', 'progress': 'install'}
+[11.188416] (drive_to_point) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point'], 'cwd': '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2518'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3081'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install:/home/magnum/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:52088'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2588,unix/robostek:/tmp/.ICE-unix/2588'), ('INVOCATION_ID', '1ec028686af6482f94fac00e3087f0b0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point:/home/magnum/ros2_ws/install/robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d62a449-bafe-40a2-a098-7fe37026d9d7'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point:/home/magnum/ros2_ws/install/robot:/opt/ros/foxy')]), 'shell': False}
+[11.200082] (drive_to_point) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.200402] (drive_to_point) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/drive_to_point/drive_to_point\n'}
+[11.203772] (-) TimerEvent: {}
+[11.269522] (drive_to_point) StdoutLine: {'line': b'-- Set runtime path of "/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/lib/drive_to_point/drive_to_point" to ""\n'}
+[11.269930] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/ament_index/resource_index/package_run_dependencies/drive_to_point\n'}
+[11.270087] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/ament_index/resource_index/parent_prefix_path/drive_to_point\n'}
+[11.270200] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/ament_prefix_path.sh\n'}
+[11.270301] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/ament_prefix_path.dsv\n'}
+[11.270616] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/path.sh\n'}
+[11.270741] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/environment/path.dsv\n'}
+[11.270840] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.bash\n'}
+[11.270954] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.sh\n'}
+[11.271053] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.zsh\n'}
+[11.271153] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/local_setup.dsv\n'}
+[11.271884] (drive_to_point) StdoutLine: {'line': b'-- Installing: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.dsv\n'}
+[11.272976] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/ament_index/resource_index/packages/drive_to_point\n'}
+[11.273457] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/cmake/drive_to_pointConfig.cmake\n'}
+[11.273761] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/cmake/drive_to_pointConfig-version.cmake\n'}
+[11.274120] (drive_to_point) StdoutLine: {'line': b'-- Up-to-date: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/install/drive_to_point/share/drive_to_point/package.xml\n'}
+[11.284514] (drive_to_point) CommandEnded: {'returncode': 0}
+[11.304093] (-) TimerEvent: {}
+[11.404741] (-) TimerEvent: {}
+[11.510203] (-) TimerEvent: {}
+[11.516014] (drive_to_point) JobEnded: {'identifier': 'drive_to_point', 'rc': 0}
+[11.517464] (-) EventReactorShutdown: {}

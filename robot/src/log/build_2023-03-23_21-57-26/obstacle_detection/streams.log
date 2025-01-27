@@ -1,0 +1,34 @@
+[0.379s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/simuate_ws/install/obstacleavoidance_fsm:/home/magnum/simuate_ws/install/drive_robot:/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/obstacle_detection -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection
+[0.388s] CMake Warning (dev) in CMakeLists.txt:
+[0.389s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.389s]   contain a literal, direct call to the project() command.  Add a line of
+[0.389s]   code such as
+[0.389s] 
+[0.389s]     project(ProjectName)
+[0.389s] 
+[0.389s]   near the top of the file, but after cmake_minimum_required().
+[0.389s] 
+[0.389s]   CMake is pretending there is a "project(Project)" command on the first
+[0.390s]   line.
+[0.390s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.390s] 
+[0.451s] -- The C compiler identification is GNU 9.4.0
+[0.513s] -- The CXX compiler identification is GNU 9.4.0
+[0.518s] -- Check for working C compiler: /usr/bin/cc
+[0.567s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.568s] -- Detecting C compiler ABI info
+[0.619s] -- Detecting C compiler ABI info - done
+[0.629s] -- Detecting C compile features
+[0.629s] -- Detecting C compile features - done
+[0.632s] -- Check for working CXX compiler: /usr/bin/c++
+[0.692s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.693s] -- Detecting CXX compiler ABI info
+[0.759s] -- Detecting CXX compiler ABI info - done
+[0.769s] -- Detecting CXX compile features
+[0.770s] -- Detecting CXX compile features - done
+[0.770s] -- Configuring done
+[0.771s] -- Generating done
+[0.771s] -- Build files have been written to: /home/magnum/simuate_ws/src/robot/src/build/obstacle_detection
+[0.774s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/simuate_ws/install/obstacleavoidance_fsm:/home/magnum/simuate_ws/install/drive_robot:/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/obstacle_detection -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection
+[0.777s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/simuate_ws/install/obstacleavoidance_fsm:/home/magnum/simuate_ws/install/drive_robot:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/build/obstacle_detection -- -j8 -l8
+[0.806s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/simuate_ws/install/obstacleavoidance_fsm:/home/magnum/simuate_ws/install/drive_robot:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/build/obstacle_detection -- -j8 -l8

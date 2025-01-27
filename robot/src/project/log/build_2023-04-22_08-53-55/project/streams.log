@@ -1,0 +1,51 @@
+[0.018s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[0.032s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.049s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.218s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.223s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.348s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.375s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.376s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.458s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.478s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.528s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.540s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.541s] -- Configured cppcheck include dirs: 
+[0.541s] -- Configured cppcheck exclude dirs and/or files: 
+[0.552s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.552s] -- Configured cpplint exclude dirs and/or files: 
+[0.553s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.557s] -- Added test 'lint_cmake' to check CMake code style
+[0.559s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.571s] -- Added test 'uncrustify' to check C / C++ code style
+[0.571s] -- Configured uncrustify additional arguments: 
+[0.574s] -- Added test 'xmllint' to check XML markup files
+[0.574s] -- Configuring done
+[0.585s] -- Generating done
+[0.586s] -- Build files have been written to: /home/magnum/simuate_ws/src/robot/src/project/build/project
+[0.608s] [ 50%] Built target project
+[0.610s] [100%] Built target move
+[0.614s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[0.638s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/src/project/build/project
+[0.642s] -- Install configuration: ""
+[0.642s] -- Execute custom install script
+[0.642s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/project
+[0.642s] -- Symlinking: /home/magnum/simuate_ws/src/robot/src/project/install/project/lib/project/move
+[0.645s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/package_run_dependencies/project
+[0.645s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/parent_prefix_path/project
+[0.645s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/ament_prefix_path.sh
+[0.645s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/ament_prefix_path.dsv
+[0.645s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/path.sh
+[0.646s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/environment/path.dsv
+[0.646s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.bash
+[0.646s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.sh
+[0.646s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.zsh
+[0.646s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/local_setup.dsv
+[0.646s] -- Symlinking: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/package.dsv
+[0.649s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/ament_index/resource_index/packages/project
+[0.649s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/cmake/projectConfig.cmake
+[0.649s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/cmake/projectConfig-version.cmake
+[0.649s] -- Up-to-date symlink: /home/magnum/simuate_ws/src/robot/src/project/install/project/share/project/package.xml
+[0.651s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/magnum/simuate_ws/src/robot/src/project/build/project

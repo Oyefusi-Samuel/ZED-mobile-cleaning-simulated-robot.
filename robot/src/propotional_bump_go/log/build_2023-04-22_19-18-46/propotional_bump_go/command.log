@@ -1,0 +1,2 @@
+Invoking command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go -- -j8 -l8
+Invoked command in '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go -- -j8 -l8

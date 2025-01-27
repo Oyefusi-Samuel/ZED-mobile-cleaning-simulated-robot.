@@ -1,0 +1,215 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f780a749640>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f780a749640>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f780a749b80>)
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.132s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/magnum/simuate_ws/src/robot/src'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(drive_robot) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'drive_robot' with type 'ros.ament_python' and name 'drive_robot'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extension 'colcon_meta'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extensions ['ros']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detction_python) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'obstacle_detction_python' with type 'ros.ament_python' and name 'obstacle_detction_python'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['ignore', 'ignore_ament_install']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'ignore'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'ignore_ament_install'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['colcon_pkg']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'colcon_pkg'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['colcon_meta']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(obstacle_detection) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'obstacle_detection' with type 'ros.ament_cmake' and name 'obstacle_detection'
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.169s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.171s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/foxy
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'drive_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'drive_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/simuate_ws/src/robot/src/build/drive_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/simuate_ws/src/robot/src/install/drive_robot', 'merge_install': False, 'path': '/home/magnum/simuate_ws/src/robot/src/drive_robot', 'symlink_install': False, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detction_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_detction_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python', 'merge_install': False, 'path': '/home/magnum/simuate_ws/src/robot/src/obstacle_detction_python', 'symlink_install': False, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'obstacle_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'obstacle_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection', 'merge_install': False, 'path': '/home/magnum/simuate_ws/src/robot/src/obstacle_detection', 'symlink_install': False, 'test_result_base': None}
+[0.229s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.232s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/magnum/simuate_ws/src/robot/src/drive_robot' with build type 'ament_python'
+[0.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_robot', 'ament_prefix_path')
+[0.235s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/hook/ament_prefix_path.ps1'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/hook/ament_prefix_path.dsv'
+[0.237s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/hook/ament_prefix_path.sh'
+[0.238s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.238s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.242s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/magnum/simuate_ws/src/robot/src/obstacle_detction_python' with build type 'ament_python'
+[0.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detction_python', 'ament_prefix_path')
+[0.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/hook/ament_prefix_path.ps1'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/hook/ament_prefix_path.dsv'
+[0.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/hook/ament_prefix_path.sh'
+[0.248s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.248s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/magnum/simuate_ws/src/robot/src/obstacle_detection' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/magnum/simuate_ws/src/robot/src/obstacle_detection'
+[0.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/magnum/simuate_ws/src/robot/src/drive_robot'
+[0.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.640s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/magnum/simuate_ws/src/robot/src/obstacle_detction_python'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/build/obstacle_detection -- -j8 -l8
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/build/obstacle_detection -- -j8 -l8
+[0.691s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'obstacle_detection' because it has no 'install' target
+[0.691s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detection)
+[0.695s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection' for CMake module files
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection' for CMake config files
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/bin'
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/lib/pkgconfig/obstacle_detection.pc'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/lib/python3.8/site-packages'
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/bin'
+[0.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.dsv'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.sh'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.bash'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.zsh'
+[0.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/colcon-core/packages/obstacle_detection)
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detection)
+[0.715s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection' for CMake module files
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection' for CMake config files
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/bin'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/lib/pkgconfig/obstacle_detection.pc'
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/lib/python3.8/site-packages'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/bin'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.ps1'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.sh'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.bash'
+[0.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/obstacle_detection/package.zsh'
+[0.720s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/simuate_ws/src/robot/src/install/obstacle_detection/share/colcon-core/packages/obstacle_detection)
+[0.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/simuate_ws/src/robot/src/obstacle_detction_python': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/obstacle_detction_python build --build-base /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build install --record /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/install.log --install-scripts $base/lib/obstacle_detction_python --single-version-externally-managed
+[0.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/magnum/simuate_ws/src/robot/src/drive_robot': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/drive_robot/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/drive_robot build --build-base /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build install --record /home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log --install-scripts $base/lib/drive_robot --single-version-externally-managed
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/drive_robot' for CMake module files
+[1.214s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/simuate_ws/src/robot/src/drive_robot' returned '0': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/drive_robot/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/drive_robot build --build-base /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build install --record /home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log --install-scripts $base/lib/drive_robot --single-version-externally-managed
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/drive_robot' for CMake config files
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/bin'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/pkgconfig/drive_robot.pc'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages'
+[1.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_robot', 'pythonpath')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/hook/pythonpath.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/hook/pythonpath.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/hook/pythonpath.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/bin'
+[1.217s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_robot)
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/package.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/package.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/package.sh'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/package.bash'
+[1.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot/package.zsh'
+[1.219s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/colcon-core/packages/drive_robot)
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python' for CMake module files
+[1.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/magnum/simuate_ws/src/robot/src/obstacle_detction_python' returned '0': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/obstacle_detction_python build --build-base /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build install --record /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/install.log --install-scripts $base/lib/obstacle_detction_python --single-version-externally-managed
+[1.221s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python' for CMake config files
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/bin'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/pkgconfig/obstacle_detction_python.pc'
+[1.222s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages'
+[1.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('obstacle_detction_python', 'pythonpath')
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/hook/pythonpath.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/hook/pythonpath.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/hook/pythonpath.sh'
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/bin'
+[1.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(obstacle_detction_python)
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/package.ps1'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/package.dsv'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/package.sh'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/package.bash'
+[1.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python/package.zsh'
+[1.226s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/colcon-core/packages/obstacle_detction_python)
+[1.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.226s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.226s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.230s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.230s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.230s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.241s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/install/local_setup.ps1'
+[1.243s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/simuate_ws/src/robot/src/install/_local_setup_util_ps1.py'
+[1.244s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/install/setup.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/install/local_setup.sh'
+[1.246s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/magnum/simuate_ws/src/robot/src/install/_local_setup_util_sh.py'
+[1.247s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/install/setup.sh'
+[1.248s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/install/local_setup.bash'
+[1.249s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/install/setup.bash'
+[1.250s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/magnum/simuate_ws/src/robot/src/install/local_setup.zsh'
+[1.250s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/magnum/simuate_ws/src/robot/src/install/setup.zsh'

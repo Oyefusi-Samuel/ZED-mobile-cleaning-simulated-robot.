@@ -1,0 +1,72 @@
+[0.014s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/simuate_ws/install/obstacleavoidance_fsm:/home/magnum/simuate_ws/install/markers:/home/magnum/simuate_ws/install/drive_robot:/home/magnum/simuate_ws/install/distance_travelled:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/visual.dir/src/visual.cpp.o[0m
+[1.053s] [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:[m[K In constructor ‘[01m[Kvisual_marker::visual::visual()[m[K’:
+[1.053s] [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:7:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster()[m[K’
+[1.053s]     7 |         visual::visual() : Node("Visual_markers_node"[01;31m[K)[m[K{
+[1.053s]       |                                                      [01;31m[K^[m[K
+[1.053s] In file included from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.hpp:9[m[K,
+[1.053s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:2[m[K:
+[1.053s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:55:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.053s]    55 |   [01;36m[KStaticTransformBroadcaster[m[K(
+[1.053s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.053s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:55:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.054s] [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:7:54:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[1.054s]     7 |         visual::visual() : Node("Visual_markers_node"[01;36m[K)[m[K{
+[1.054s]       |                                                      [01;36m[K^[m[K
+[1.054s] In file included from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.hpp:9[m[K,
+[1.054s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:2[m[K:
+[1.054s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(const tf2_ros::StaticTransformBroadcaster&)[m[K’
+[1.054s]    51 | class [01;36m[KStaticTransformBroadcaster[m[K{
+[1.054s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.054s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.054s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(tf2_ros::StaticTransformBroadcaster&&)[m[K’
+[1.054s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:51:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.054s] [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:7:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer()[m[K’
+[1.054s]     7 |         visual::visual() : Node("Visual_markers_node"[01;31m[K)[m[K{
+[1.054s]       |                                                      [01;31m[K^[m[K
+[1.054s] In file included from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.hpp:10[m[K,
+[1.054s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:2[m[K:
+[1.054s] [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:71:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration)[m[K’
+[1.054s]    71 |     TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(rclcpp::Clock::SharedPtr clock, tf2::Duration cache_time = tf2::Duration(tf2::BUFFER_CORE_DEFAULT_CACHE_TIME));
+[1.054s]       |                    [01;36m[K^~~~~~[m[K
+[1.054s] [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:71:20:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[1.479s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/create_publisher.hpp:21[m[K,
+[1.479s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:39[m[K,
+[1.479s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[1.479s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.479s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.479s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.479s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.hpp:4[m[K,
+[1.480s]                  from [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:2[m[K:
+[1.480s] /opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp: In instantiation of ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeTopicsInterface> rclcpp::node_interfaces::get_node_topics_interface(NodeType&&) [with NodeType = std::shared_ptr<tf2_ros::StaticTransformBroadcaster>&; typename std::enable_if<rcpputils::is_pointer<T>::value, int>::type <anonymous> = 0][m[K’:
+[1.480s] [01m[K/opt/ros/foxy/include/rclcpp/create_publisher.hpp:54:47:[m[K   required from ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::create_publisher(NodeT&, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = tf2_msgs::msg::TFMessage_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<tf2_msgs::msg::TFMessage_<std::allocator<void> > >; NodeT = std::shared_ptr<tf2_ros::StaticTransformBroadcaster>; std::string = std::__cxx11::basic_string<char>][m[K’
+[1.480s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:61:68:[m[K   required from ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with NodeT = std::shared_ptr<tf2_ros::StaticTransformBroadcaster>; AllocatorT = std::allocator<void>][m[K’
+[1.480s] [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:12:90:[m[K   required from here
+[1.480s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:75:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_node_topics_interface_from_pointer(std::shared_ptr<tf2_ros::StaticTransformBroadcaster>&)[m[K’
+[1.480s]    75 |   return [01;31m[Kdetail::get_node_topics_interface_from_pointer(node)[m[K;
+[1.480s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.480s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:53:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeType, typename std::enable_if<rclcpp::node_interfaces::has_node_topics_interface<typename rcpputils::remove_pointer<T>::type>::value, int>::type <anonymous> > std::shared_ptr<rclcpp::node_interfaces::NodeTopicsInterface> rclcpp::node_interfaces::detail::get_node_topics_interface_from_pointer(NodeType)[m[K’
+[1.480s]    53 | [01;36m[Kget_node_topics_interface_from_pointer[m[K(NodeType node_pointer)
+[1.480s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.480s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:53:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.480s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:50:26:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, int>[m[K’
+[1.480s]    50 |   >::value, int>::type = [01;31m[K0[m[K
+[1.480s]       |                          [01;31m[K^[m[K
+[1.483s] /opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp: In instantiation of ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeTopicsInterface> rclcpp::node_interfaces::get_node_topics_interface(NodeType&&) [with NodeType = geometry_msgs::msg::TransformStamped_<std::allocator<void> >&; typename std::enable_if<(! rcpputils::is_pointer<T>::value), int>::type <anonymous> = 0][m[K’:
+[1.483s] [01m[K/opt/ros/foxy/include/rclcpp/create_publisher.hpp:54:47:[m[K   required from ‘[01m[Kstd::shared_ptr<PublisherT> rclcpp::create_publisher(NodeT&, const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with MessageT = tf2_msgs::msg::TFMessage_<std::allocator<void> >; AllocatorT = std::allocator<void>; PublisherT = rclcpp::Publisher<tf2_msgs::msg::TFMessage_<std::allocator<void> > >; NodeT = geometry_msgs::msg::TransformStamped_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’
+[1.483s] [01m[K/opt/ros/foxy/include/tf2_ros/static_transform_broadcaster.h:61:68:[m[K   required from ‘[01m[Ktf2_ros::StaticTransformBroadcaster::StaticTransformBroadcaster(NodeT&&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&) [with NodeT = geometry_msgs::msg::TransformStamped_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[1.483s] [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:23:113:[m[K   required from here
+[1.483s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:90:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kget_node_topics_interface_from_pointer(geometry_msgs::msg::TransformStamped_<std::allocator<void> >*)[m[K’
+[1.483s]    90 |   return [01;31m[Kdetail::get_node_topics_interface_from_pointer(&node)[m[K;
+[1.483s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[1.483s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:53:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeType, typename std::enable_if<rclcpp::node_interfaces::has_node_topics_interface<typename rcpputils::remove_pointer<T>::type>::value, int>::type <anonymous> > std::shared_ptr<rclcpp::node_interfaces::NodeTopicsInterface> rclcpp::node_interfaces::detail::get_node_topics_interface_from_pointer(NodeType)[m[K’
+[1.483s]    53 | [01;36m[Kget_node_topics_interface_from_pointer[m[K(NodeType node_pointer)
+[1.483s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.483s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:53:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.483s] [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/get_node_topics_interface.hpp:50:26:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, int>[m[K’
+[1.483s]    50 |   >::value, int>::type = [01;31m[K0[m[K
+[1.483s]       |                          [01;31m[K^[m[K
+[2.389s] make[2]: *** [CMakeFiles/visual.dir/build.make:76: CMakeFiles/visual.dir/src/visual.cpp.o] Error 1
+[2.389s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visual.dir/all] Error 2
+[2.389s] make: *** [Makefile:146: all] Error 2
+[2.391s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/magnum/simuate_ws/install/obstacleavoidance_fsm:/home/magnum/simuate_ws/install/markers:/home/magnum/simuate_ws/install/drive_robot:/home/magnum/simuate_ws/install/distance_travelled:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8

@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8
+[0.029s] [ 50%] [32mBuilding CXX object CMakeFiles/project.dir/src/pub.cpp.o[0m
+[0.052s] [01m[K/home/magnum/simuate_ws/src/robot/src/project/src/pub.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.052s]     3 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.052s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.053s] compilation terminated.
+[0.053s] make[2]: *** [CMakeFiles/project.dir/build.make:76: CMakeFiles/project.dir/src/pub.cpp.o] Error 1
+[0.054s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/project.dir/all] Error 2
+[0.054s] make: *** [Makefile:146: all] Error 2
+[0.055s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/project/build/project -- -j8 -l8

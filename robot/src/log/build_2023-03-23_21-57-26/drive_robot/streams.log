@@ -1,0 +1,40 @@
+[0.765s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/drive_robot': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/drive_robot/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/drive_robot build --build-base /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build install --record /home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log --install-scripts $base/lib/drive_robot --single-version-externally-managed
+[0.957s] running egg_info
+[0.958s] creating ../build/drive_robot/drive_robot.egg-info
+[0.958s] writing ../build/drive_robot/drive_robot.egg-info/PKG-INFO
+[0.958s] writing dependency_links to ../build/drive_robot/drive_robot.egg-info/dependency_links.txt
+[0.958s] writing entry points to ../build/drive_robot/drive_robot.egg-info/entry_points.txt
+[0.958s] writing requirements to ../build/drive_robot/drive_robot.egg-info/requires.txt
+[0.958s] writing top-level names to ../build/drive_robot/drive_robot.egg-info/top_level.txt
+[0.959s] writing manifest file '../build/drive_robot/drive_robot.egg-info/SOURCES.txt'
+[0.982s] reading manifest file '../build/drive_robot/drive_robot.egg-info/SOURCES.txt'
+[0.982s] writing manifest file '../build/drive_robot/drive_robot.egg-info/SOURCES.txt'
+[0.982s] running build
+[0.982s] running build_py
+[0.982s] creating /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build
+[0.982s] creating /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib
+[0.982s] creating /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib/drive_robot
+[0.982s] copying drive_robot/human_tracking.py -> /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib/drive_robot
+[0.982s] copying drive_robot/__init__.py -> /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib/drive_robot
+[0.983s] copying drive_robot/move_robot.py -> /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib/drive_robot
+[0.983s] running install
+[0.983s] running install_lib
+[0.984s] creating /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot
+[0.984s] copying /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib/drive_robot/human_tracking.py -> /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot
+[0.984s] copying /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib/drive_robot/__init__.py -> /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot
+[0.984s] copying /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build/lib/drive_robot/move_robot.py -> /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot
+[0.984s] byte-compiling /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot/human_tracking.py to human_tracking.cpython-38.pyc
+[0.985s] byte-compiling /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot/__init__.py to __init__.cpython-38.pyc
+[0.985s] byte-compiling /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot/move_robot.py to move_robot.cpython-38.pyc
+[0.985s] running install_data
+[0.986s] creating /home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/ament_index
+[0.986s] creating /home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/ament_index/resource_index
+[0.986s] creating /home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/ament_index/resource_index/packages
+[0.986s] copying resource/drive_robot -> /home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/ament_index/resource_index/packages
+[0.986s] copying package.xml -> /home/magnum/simuate_ws/src/robot/src/install/drive_robot/share/drive_robot
+[0.986s] running install_egg_info
+[0.987s] Copying ../build/drive_robot/drive_robot.egg-info to /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot-0.0.0-py3.8.egg-info
+[0.988s] running install_scripts
+[1.000s] Installing velocity_drive script to /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/drive_robot
+[1.000s] writing list of installed files to '/home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log'
+[1.029s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/drive_robot' returned '0': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/drive_robot/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/drive_robot build --build-base /home/magnum/simuate_ws/src/robot/src/build/drive_robot/build install --record /home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log --install-scripts $base/lib/drive_robot --single-version-externally-managed

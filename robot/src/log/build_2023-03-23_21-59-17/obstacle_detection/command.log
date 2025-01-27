@@ -1,0 +1,2 @@
+Invoking command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/build/obstacle_detection -- -j8 -l8
+Invoked command in '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detection' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/build/obstacle_detection -- -j8 -l8

@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8
+[0.035s] [ 50%] [32mBuilding CXX object CMakeFiles/visual.dir/src/visual.cpp.o[0m
+[0.042s] [01m[K/home/magnum/simuate_ws/src/robot/src/visual_marker/src/visual.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kvisual_marker/visual.hpp: No such file or directory
+[0.042s]     1 | #include [01;31m[K"visual_marker/visual.hpp"[m[K
+[0.042s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.042s] compilation terminated.
+[0.042s] make[2]: *** [CMakeFiles/visual.dir/build.make:76: CMakeFiles/visual.dir/src/visual.cpp.o] Error 1
+[0.043s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visual.dir/all] Error 2
+[0.043s] make: *** [Makefile:146: all] Error 2
+[0.045s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8

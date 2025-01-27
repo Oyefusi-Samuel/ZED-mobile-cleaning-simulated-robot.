@@ -1,0 +1,33 @@
+[0.758s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/obstacle_detction_python': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/obstacle_detction_python build --build-base /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build install --record /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/install.log --install-scripts $base/lib/obstacle_detction_python --single-version-externally-managed
+[0.945s] running egg_info
+[0.945s] creating ../build/obstacle_detction_python/obstacle_detction_python.egg-info
+[0.945s] writing ../build/obstacle_detction_python/obstacle_detction_python.egg-info/PKG-INFO
+[0.945s] writing dependency_links to ../build/obstacle_detction_python/obstacle_detction_python.egg-info/dependency_links.txt
+[0.945s] writing entry points to ../build/obstacle_detction_python/obstacle_detction_python.egg-info/entry_points.txt
+[0.946s] writing requirements to ../build/obstacle_detction_python/obstacle_detction_python.egg-info/requires.txt
+[0.946s] writing top-level names to ../build/obstacle_detction_python/obstacle_detction_python.egg-info/top_level.txt
+[0.946s] writing manifest file '../build/obstacle_detction_python/obstacle_detction_python.egg-info/SOURCES.txt'
+[0.969s] reading manifest file '../build/obstacle_detction_python/obstacle_detction_python.egg-info/SOURCES.txt'
+[0.970s] writing manifest file '../build/obstacle_detction_python/obstacle_detction_python.egg-info/SOURCES.txt'
+[0.970s] running build
+[0.970s] running build_py
+[0.970s] creating /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build
+[0.970s] creating /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build/lib
+[0.970s] creating /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build/lib/obstacle_detction_python
+[0.970s] copying obstacle_detction_python/__init__.py -> /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build/lib/obstacle_detction_python
+[0.970s] running install
+[0.971s] running install_lib
+[0.972s] creating /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages/obstacle_detction_python
+[0.972s] copying /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build/lib/obstacle_detction_python/__init__.py -> /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages/obstacle_detction_python
+[0.972s] byte-compiling /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages/obstacle_detction_python/__init__.py to __init__.cpython-38.pyc
+[0.973s] running install_data
+[0.973s] creating /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/ament_index
+[0.973s] creating /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/ament_index/resource_index
+[0.973s] creating /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/ament_index/resource_index/packages
+[0.973s] copying resource/obstacle_detction_python -> /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/ament_index/resource_index/packages
+[0.973s] copying package.xml -> /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/share/obstacle_detction_python
+[0.973s] running install_egg_info
+[0.974s] Copying ../build/obstacle_detction_python/obstacle_detction_python.egg-info to /home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages/obstacle_detction_python-0.0.0-py3.8.egg-info
+[0.975s] running install_scripts
+[0.987s] writing list of installed files to '/home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/install.log'
+[1.010s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/obstacle_detction_python' returned '0': PYTHONPATH=/home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/prefix_override:/home/magnum/simuate_ws/src/robot/src/install/obstacle_detction_python/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/obstacle_detction_python build --build-base /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/build install --record /home/magnum/simuate_ws/src/robot/src/build/obstacle_detction_python/install.log --install-scripts $base/lib/obstacle_detction_python --single-version-externally-managed

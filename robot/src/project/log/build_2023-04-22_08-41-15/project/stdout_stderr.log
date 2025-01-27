@@ -1,0 +1,9 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/projectt.dir/src/drive_straight.cpp.o[0m
+[ 75%] Built target project
+[01m[K/home/magnum/simuate_ws/src/robot/src/project/src/drive_straight.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.h: No such file or directory
+    3 | #include [01;31m[K"rclcpp/rclcpp.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/projectt.dir/build.make:76: CMakeFiles/projectt.dir/src/drive_straight.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/projectt.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

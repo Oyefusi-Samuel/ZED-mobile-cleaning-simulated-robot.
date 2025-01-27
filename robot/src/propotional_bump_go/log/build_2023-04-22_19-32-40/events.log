@@ -1,0 +1,614 @@
+[0.000000] (-) TimerEvent: {}
+[0.000359] (propotional_bump_go) JobQueued: {'identifier': 'propotional_bump_go', 'dependencies': OrderedDict()}
+[0.000419] (propotional_bump_go) JobStarted: {'identifier': 'propotional_bump_go'}
+[0.056857] (propotional_bump_go) JobProgress: {'identifier': 'propotional_bump_go', 'progress': 'cmake'}
+[0.058069] (propotional_bump_go) JobProgress: {'identifier': 'propotional_bump_go', 'progress': 'build'}
+[0.059764] (propotional_bump_go) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go', '--', '-j8', '-l8'], 'cwd': '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2533'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/simuate_ws/src/robot/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2360'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3766'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install:/home/magnum/simuate_ws/src/robot/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:54995'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2606,unix/robostek:/tmp/.ICE-unix/2606'), ('INVOCATION_ID', 'f762057d80f041d2b6ce6a2fcc9e5ebb'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go:/home/magnum/simuate_ws/src/robot/install/robot:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:4bb8e8a6-9b26-4f09-8f0f-2a7cca1dd188'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/build/propotional_bump_go'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/install/propotional_bump_go:/home/magnum/simuate_ws/src/robot/install/robot:/opt/ros/foxy')]), 'shell': False}
+[0.090191] (-) TimerEvent: {}
+[0.153031] (propotional_bump_go) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bump_go_node.dir/src/bump_go_node.cpp.o\x1b[0m\n'}
+[0.190293] (-) TimerEvent: {}
+[0.290757] (-) TimerEvent: {}
+[0.391210] (-) TimerEvent: {}
+[0.491637] (-) TimerEvent: {}
+[0.592149] (-) TimerEvent: {}
+[0.692621] (-) TimerEvent: {}
+[0.793078] (-) TimerEvent: {}
+[0.893512] (-) TimerEvent: {}
+[0.993937] (-) TimerEvent: {}
+[1.094360] (-) TimerEvent: {}
+[1.194758] (-) TimerEvent: {}
+[1.295452] (-) TimerEvent: {}
+[1.396097] (-) TimerEvent: {}
+[1.496914] (-) TimerEvent: {}
+[1.597790] (-) TimerEvent: {}
+[1.698534] (-) TimerEvent: {}
+[1.799100] (-) TimerEvent: {}
+[1.899438] (-) TimerEvent: {}
+[1.999853] (-) TimerEvent: {}
+[2.100582] (-) TimerEvent: {}
+[2.201019] (-) TimerEvent: {}
+[2.301880] (-) TimerEvent: {}
+[2.402654] (-) TimerEvent: {}
+[2.483082] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid bump_go_cpp::bump_go::control_cycle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.483482] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconverting to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99 requires direct-initialization [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.483796] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;31m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.484013] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.484121] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator==\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.484379] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (\x1b[01;31m\x1b[Klast_scan == !nullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.484606] (propotional_bump_go) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.484818] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Koperator==(int, int)\x1b[m\x1b[K\xe2\x80\x99 <built-in>\n'}
+[2.484932] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.485055] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/utility:70\x1b[m\x1b[K,\n'}
+[2.485168] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:1\x1b[m\x1b[K:\n'}
+[2.485537] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:448:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.485676] (propotional_bump_go) StderrLine: {'line': b'  448 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)\n'}
+[2.485792] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.485908] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_pair.h:448:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.486024] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::pair<_T1, _T2>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.486153] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.486265] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.486377] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[2.486487] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:61\x1b[m\x1b[K,\n'}
+[2.486600] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[2.486713] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.487098] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.487324] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.487503] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.487619] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:325:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.487997] (propotional_bump_go) StderrLine: {'line': b'  325 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_Iterator>& __x,\n'}
+[2.488201] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.488323] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:325:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.488441] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.488562] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.488674] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.489103] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[2.489232] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:61\x1b[m\x1b[K,\n'}
+[2.489363] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[2.489650] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.489931] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.490195] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.490457] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.490709] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.490911] (propotional_bump_go) StderrLine: {'line': b'  363 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const reverse_iterator<_IteratorL>& __x,\n'}
+[2.491189] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.491463] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.491709] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::reverse_iterator<_Iterator>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.491992] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.492232] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.492521] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[2.492778] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:61\x1b[m\x1b[K,\n'}
+[2.493077] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[2.493248] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.493539] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.493779] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.494038] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.494285] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IteratorL, class _IteratorR> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.494560] (propotional_bump_go) StderrLine: {'line': b' 1136 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_IteratorL>& __x,\n'}
+[2.494826] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.495055] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:1136:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.499008] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.499257] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.499436] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.499608] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/stl_algobase.h:67\x1b[m\x1b[K,\n'}
+[2.499781] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/algorithm:61\x1b[m\x1b[K,\n'}
+[2.499954] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:18\x1b[m\x1b[K,\n'}
+[2.500122] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.500291] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.500457] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.500622] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.500795] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Iterator> bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.500962] (propotional_bump_go) StderrLine: {'line': b' 1142 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const move_iterator<_Iterator>& __x,\n'}
+[2.501126] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.501294] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_iterator.h:1142:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.501422] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::move_iterator<_IteratorL>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.501531] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.501623] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.501715] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:63\x1b[m\x1b[K,\n'}
+[2.501806] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.501899] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.501998] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.502081] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.502180] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.502278] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:167:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_Tp>&, const std::allocator<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.502388] (propotional_bump_go) StderrLine: {'line': b'  167 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const allocator<_T1>&, const allocator<_T2>&)\n'}
+[2.502488] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.502573] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/allocator.h:167:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.502641] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.502709] (-) TimerEvent: {}
+[2.502854] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.502968] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.503043] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iosfwd:40\x1b[m\x1b[K,\n'}
+[2.503112] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:72\x1b[m\x1b[K,\n'}
+[2.503185] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.503254] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.503323] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.503391] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.503457] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.503522] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.503594] (propotional_bump_go) StderrLine: {'line': b'  222 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)\n'}
+[2.503659] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.503723] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/postypes.h:222:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.503789] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::fpos<_StateT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.503862] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.503935] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.504000] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.504065] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.504129] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.504195] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.504260] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.504324] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.504389] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.504452] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.504515] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.504579] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.504644] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.504708] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6144:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.504780] (propotional_bump_go) StderrLine: {'line': b' 6144 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[2.504846] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.504909] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6144:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.504975] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.505043] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.505108] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.505172] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.505236] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.505304] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.505415] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.505518] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.505625] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.505735] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.505816] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.505885] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.505965] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.506071] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.506185] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6152:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.506301] (propotional_bump_go) StderrLine: {'line': b' 6152 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT>& __lhs,\n'}
+[2.506400] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.506501] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6152:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.506613] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.506737] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.506837] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.506938] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.507037] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.507131] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.507229] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.507330] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.507438] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.507536] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.507639] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.507738] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.507849] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.507950] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.508049] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.508158] (propotional_bump_go) StderrLine: {'line': b' 6166 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const _CharT* __lhs,\n'}
+[2.508258] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.508356] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6166:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.508454] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst _CharT*\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.508559] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.508661] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.508757] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[2.508859] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[2.508958] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[2.509057] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.509155] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.509263] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.509377] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.509478] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.509574] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.509668] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.509769] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.509866] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.509971] (propotional_bump_go) StderrLine: {'line': b' 6178 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,\n'}
+[2.510069] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.510169] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.510303] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.510381] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.510449] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.510515] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[2.510581] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.510647] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.510718] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.510798] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.510885] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.510969] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.511034] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.511097] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/array:252:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.511168] (propotional_bump_go) StderrLine: {'line': b'  252 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)\n'}
+[2.511243] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.511320] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/array:252:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.511403] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::array<_Tp, _Nm>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.511487] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.511566] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.511654] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[2.511720] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.511783] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.511846] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.511910] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.511973] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.512057] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.512142] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/tuple:1419:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.512224] (propotional_bump_go) StderrLine: {'line': b' 1419 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const tuple<_TElements...>& __t,\n'}
+[2.512298] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.512373] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/tuple:1419:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.512466] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::tuple<_Tps ...>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.512571] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.512671] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.512738] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.512810] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.512876] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.512940] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.513016] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.513116] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.513207] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:715:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.513286] (propotional_bump_go) StderrLine: {'line': b'  715 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x,\n'}
+[2.513364] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.513430] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:715:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.513599] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Up, _Ep>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.513770] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.513992] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.514165] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.514337] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.514517] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.514715] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.514904] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.515072] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.515247] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:721:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.515438] (propotional_bump_go) StderrLine: {'line': b'  721 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept\n'}
+[2.515605] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.515805] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:721:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.515975] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Ktrue\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.516154] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.516331] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.516495] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[2.516666] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.516835] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.516934] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.517003] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.517072] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.517152] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:726:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517270] (propotional_bump_go) StderrLine: {'line': b'  726 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept\n'}
+[2.517434] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.517613] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:726:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.517785] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.517958] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.518135] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.518338] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[2.518525] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.518723] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.518922] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.519117] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.519294] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.519481] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.519669] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.519839] (propotional_bump_go) StderrLine: {'line': b' 1412 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp1, _Lp>& __a,\n'}
+[2.519997] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.520194] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.520359] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp1, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.520525] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.520701] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.520888] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[2.521069] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.521239] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.521316] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.521397] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.521465] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.521532] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.521608] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.521783] (propotional_bump_go) StderrLine: {'line': b' 1418 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept\n'}
+[2.521981] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.522173] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.522389] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.522633] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.522843] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.523043] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:52\x1b[m\x1b[K,\n'}
+[2.523240] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.523456] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.523669] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.523849] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.524015] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.524205] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.524390] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.524567] (propotional_bump_go) StderrLine: {'line': b' 1423 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept\n'}
+[2.524748] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.524936] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.525013] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::__shared_ptr<_Tp, _Lp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.525083] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.525148] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.525215] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.525294] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.525370] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.525435] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.525502] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.525568] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.525645] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:383:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.525744] (propotional_bump_go) StderrLine: {'line': b'  383 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept\n'}
+[2.525839] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.525929] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:383:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.526022] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.526129] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.526194] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.526258] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.526322] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.526385] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.526448] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.526522] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.526593] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.526752] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:388:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.526949] (propotional_bump_go) StderrLine: {'line': b'  388 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept\n'}
+[2.527127] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.527298] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:388:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.527471] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.527689] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.527868] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.528053] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.528247] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:19\x1b[m\x1b[K,\n'}
+[2.528396] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.528504] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.528609] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.528716] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.528817] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:393:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.528928] (propotional_bump_go) StderrLine: {'line': b'  393 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept\n'}
+[2.529028] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.529127] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:393:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.529235] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<_Tp>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.529412] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.529604] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.529781] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/vector:67\x1b[m\x1b[K,\n'}
+[2.529966] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rosidl_runtime_cpp/bounded_vector.hpp:22\x1b[m\x1b[K,\n'}
+[2.530155] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/laser_scan__struct.hpp:8\x1b[m\x1b[K,\n'}
+[2.530318] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/laser_scan.hpp:7\x1b[m\x1b[K,\n'}
+[2.530473] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:2\x1b[m\x1b[K,\n'}
+[2.530629] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.530781] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1888:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.530955] (propotional_bump_go) StderrLine: {'line': b' 1888 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)\n'}
+[2.531126] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.531300] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_vector.h:1888:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.531482] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.531672] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.531840] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.532006] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/mutex:42\x1b[m\x1b[K,\n'}
+[2.532172] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/future:38\x1b[m\x1b[K,\n'}
+[2.532341] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.532512] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.532692] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.532858] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.533022] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:292:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.533187] (propotional_bump_go) StderrLine: {'line': b'  292 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_code& __rhs) noexcept\n'}
+[2.533358] (propotional_bump_go) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.533542] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:292:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.533723] (propotional_bump_go) StderrLine: {'line': b'  292 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[2.533896] (propotional_bump_go) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.534056] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:297:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_code&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.534225] (propotional_bump_go) StderrLine: {'line': b'  297 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_code& __lhs, const error_condition& __rhs) noexcept\n'}
+[2.534390] (propotional_bump_go) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.534556] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:297:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.534737] (propotional_bump_go) StderrLine: {'line': b'  297 |   operator==(\x1b[01;36m\x1b[Kconst error_code& __lhs\x1b[m\x1b[K, const error_condition& __rhs) noexcept\n'}
+[2.534907] (propotional_bump_go) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.535076] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:304:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.535243] (propotional_bump_go) StderrLine: {'line': b'  304 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs, const error_code& __rhs) noexcept\n'}
+[2.535421] (propotional_bump_go) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.535586] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:304:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.535768] (propotional_bump_go) StderrLine: {'line': b'  304 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K, const error_code& __rhs) noexcept\n'}
+[2.535945] (propotional_bump_go) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.536116] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:311:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(const std::error_condition&, const std::error_condition&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.536292] (propotional_bump_go) StderrLine: {'line': b'  311 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const error_condition& __lhs,\n'}
+[2.536469] (propotional_bump_go) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.536643] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/system_error:311:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_condition&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.536826] (propotional_bump_go) StderrLine: {'line': b'  311 |   operator==(\x1b[01;36m\x1b[Kconst error_condition& __lhs\x1b[m\x1b[K,\n'}
+[2.536992] (propotional_bump_go) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.537147] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:39\x1b[m\x1b[K,\n'}
+[2.537307] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.537477] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.537646] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.537810] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.537976] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:276:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kbool std::operator==(std::thread::id, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.538146] (propotional_bump_go) StderrLine: {'line': b'  276 |   \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(thread::id __x, thread::id __y) noexcept\n'}
+[2.538322] (propotional_bump_go) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.538493] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/thread:276:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.538669] (propotional_bump_go) StderrLine: {'line': b'  276 |   operator==(\x1b[01;36m\x1b[Kthread::id __x\x1b[m\x1b[K, thread::id __y) noexcept\n'}
+[2.538838] (propotional_bump_go) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.539003] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:48\x1b[m\x1b[K,\n'}
+[2.539169] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.539342] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.539517] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.539686] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.539872] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:746:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.540041] (propotional_bump_go) StderrLine: {'line': b'  746 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept\n'}
+[2.540547] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.540718] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:746:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.540888] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.541068] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.541240] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.541426] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/future:48\x1b[m\x1b[K,\n'}
+[2.541600] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[2.541779] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.541948] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.542123] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.542305] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:752:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.542480] (propotional_bump_go) StderrLine: {'line': b'  752 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept\n'}
+[2.542653] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.542817] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/std_function.h:752:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.542990] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  mismatched types \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<_Res(_ArgTypes ...)>\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.543166] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.543329] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.543504] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/set:61\x1b[m\x1b[K,\n'}
+[2.543674] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[2.543845] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.544018] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.544187] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.544351] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.544524] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_set.h:979:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.544701] (propotional_bump_go) StderrLine: {'line': b'  979 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const set<_Key, _Compare, _Alloc>& __x,\n'}
+[2.544877] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.545058] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_set.h:979:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.545228] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::set<_Key, _Compare, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.545414] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.545580] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.545749] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/set:62\x1b[m\x1b[K,\n'}
+[2.545916] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:21\x1b[m\x1b[K,\n'}
+[2.546074] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.546230] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.546388] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.546528] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.546648] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_multiset.h:964:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.546782] (propotional_bump_go) StderrLine: {'line': b'  964 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multiset<_Key, _Compare, _Alloc>& __x,\n'}
+[2.546883] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.547003] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_multiset.h:964:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.547121] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multiset<_Key, _Compare, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.547299] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.547423] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.547540] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/unordered_map:47\x1b[m\x1b[K,\n'}
+[2.547660] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:23\x1b[m\x1b[K,\n'}
+[2.547779] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.547896] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.548016] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.548118] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.548217] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unordered_map.h:2093:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator==(const std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>&, const std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.548362] (propotional_bump_go) StderrLine: {'line': b' 2093 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[2.548483] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.548653] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unordered_map.h:2093:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.548819] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.548970] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.549132] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.549265] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/unordered_map:47\x1b[m\x1b[K,\n'}
+[2.549452] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:23\x1b[m\x1b[K,\n'}
+[2.549622] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.549794] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.549963] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.550127] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.550292] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unordered_map.h:2105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Hash, class _Pred, class _Alloc> bool std::operator==(const std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>&, const std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.550466] (propotional_bump_go) StderrLine: {'line': b' 2105 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,\n'}
+[2.550633] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.550804] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/unordered_map.h:2105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.550977] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.551168] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.551342] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.551517] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/bits/locale_facets.h:48\x1b[m\x1b[K,\n'}
+[2.551695] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_ios.h:37\x1b[m\x1b[K,\n'}
+[2.551870] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ios:44\x1b[m\x1b[K,\n'}
+[2.552039] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ostream:38\x1b[m\x1b[K,\n'}
+[2.552205] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[2.552393] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.552566] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.552733] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.552902] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.553068] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.553233] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.553419] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.553601] (propotional_bump_go) StderrLine: {'line': b'  208 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istreambuf_iterator<_CharT, _Traits>& __a,\n'}
+[2.553771] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.553938] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.554102] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istreambuf_iterator<_CharT, _Traits>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.554270] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.554430] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.554585] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/list:63\x1b[m\x1b[K,\n'}
+[2.554746] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:23\x1b[m\x1b[K,\n'}
+[2.554911] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.555076] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.555240] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.555409] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.555577] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.555757] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_list.h:1991:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.555928] (propotional_bump_go) StderrLine: {'line': b' 1991 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)\n'}
+[2.556095] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.556263] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_list.h:1991:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.556429] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::list<_Tp, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.556606] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.556770] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.556937] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/map:61\x1b[m\x1b[K,\n'}
+[2.557111] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:20\x1b[m\x1b[K,\n'}
+[2.557285] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.557463] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.557630] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.557793] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.557959] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.558125] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.558293] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.558460] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.558624] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.558791] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.558952] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.559116] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_map.h:1455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.559308] (propotional_bump_go) StderrLine: {'line': b' 1455 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[2.559477] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.559645] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_map.h:1455:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.559817] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::map<_Key, _Tp, _Compare, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.559990] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.560156] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.560322] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/map:62\x1b[m\x1b[K,\n'}
+[2.560486] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:20\x1b[m\x1b[K,\n'}
+[2.560660] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.560830] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.560999] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.561167] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.561345] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.561517] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.561684] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.561853] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.562019] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.562186] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.562364] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.562543] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.562722] (propotional_bump_go) StderrLine: {'line': b' 1119 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,\n'}
+[2.562891] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.563055] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.563222] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::multimap<_Key, _Tp, _Compare, _Alloc>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.563411] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.563579] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.563746] (propotional_bump_go) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iterator:66\x1b[m\x1b[K,\n'}
+[2.563912] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rcpputils/join.hpp:23\x1b[m\x1b[K,\n'}
+[2.564080] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/exceptions/exceptions.hpp:26\x1b[m\x1b[K,\n'}
+[2.564250] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/exceptions.hpp:18\x1b[m\x1b[K,\n'}
+[2.564416] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:31\x1b[m\x1b[K,\n'}
+[2.564578] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.564745] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.564907] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.565074] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.565242] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.565423] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.565589] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.565751] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.565915] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.566078] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go.hpp:4\x1b[m\x1b[K,\n'}
+[2.566242] (propotional_bump_go) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:2\x1b[m\x1b[K:\n'}
+[2.566422] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stream_iterator.h:134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.566595] (propotional_bump_go) StderrLine: {'line': b'  134 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K==(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,\n'}
+[2.566760] (propotional_bump_go) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.566923] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/stream_iterator.h:134:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.567088] (propotional_bump_go) StderrLine: {'line': b'\x1b[01m\x1b[K/home/magnum/simuate_ws/src/robot/src/propotional_bump_go/src/bump_go_node.cpp:42:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::istream_iterator<_Tp, _CharT, _Traits, _Dist>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.567269] (propotional_bump_go) StderrLine: {'line': b'   42 |             if (last_scan == !\x1b[01;36m\x1b[Knullptr\x1b[m\x1b[K){ //do nothing until the first sensor reads\n'}
+[2.567438] (propotional_bump_go) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.602866] (-) TimerEvent: {}
+[2.703265] (-) TimerEvent: {}
+[2.803710] (-) TimerEvent: {}
+[2.904190] (-) TimerEvent: {}
+[3.004636] (-) TimerEvent: {}
+[3.105107] (-) TimerEvent: {}
+[3.205660] (-) TimerEvent: {}
+[3.306467] (-) TimerEvent: {}
+[3.407102] (-) TimerEvent: {}
+[3.507814] (-) TimerEvent: {}
+[3.608398] (-) TimerEvent: {}
+[3.708931] (-) TimerEvent: {}
+[3.809595] (-) TimerEvent: {}
+[3.910094] (-) TimerEvent: {}
+[4.010752] (-) TimerEvent: {}
+[4.111545] (-) TimerEvent: {}
+[4.212250] (-) TimerEvent: {}
+[4.312920] (-) TimerEvent: {}
+[4.413424] (-) TimerEvent: {}
+[4.513972] (-) TimerEvent: {}
+[4.614486] (-) TimerEvent: {}
+[4.715008] (-) TimerEvent: {}
+[4.815498] (-) TimerEvent: {}
+[4.916024] (-) TimerEvent: {}
+[5.016570] (-) TimerEvent: {}
+[5.117399] (-) TimerEvent: {}
+[5.217868] (-) TimerEvent: {}
+[5.318327] (-) TimerEvent: {}
+[5.325760] (propotional_bump_go) StderrLine: {'line': b'make[2]: *** [CMakeFiles/bump_go_node.dir/build.make:76: CMakeFiles/bump_go_node.dir/src/bump_go_node.cpp.o] Error 1\n'}
+[5.326278] (propotional_bump_go) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/bump_go_node.dir/all] Error 2\n'}
+[5.326584] (propotional_bump_go) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[5.330531] (propotional_bump_go) CommandEnded: {'returncode': 2}
+[5.418520] (-) TimerEvent: {}
+[5.472374] (propotional_bump_go) JobEnded: {'identifier': 'propotional_bump_go', 'rc': 2}
+[5.482037] (-) EventReactorShutdown: {}

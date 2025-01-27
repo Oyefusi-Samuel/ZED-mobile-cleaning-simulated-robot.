@@ -1,0 +1,40 @@
+[0.015s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker
+[0.023s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.241s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.270s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.419s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.521s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.605s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.659s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.716s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.720s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.720s] -- Configured cppcheck include dirs: 
+[0.720s] -- Configured cppcheck exclude dirs and/or files: 
+[0.724s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.725s] -- Configured cpplint exclude dirs and/or files: 
+[0.725s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.727s] -- Added test 'lint_cmake' to check CMake code style
+[0.728s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.732s] -- Added test 'uncrustify' to check C / C++ code style
+[0.732s] -- Configured uncrustify additional arguments: 
+[0.733s] -- Added test 'xmllint' to check XML markup files
+[0.733s] -- Configuring done
+[0.735s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[0.736s]   Cannot find source file:
+[0.736s] 
+[0.736s]     src/bump_go_node.cpp
+[0.736s] 
+[0.736s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[0.736s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[0.736s] 
+[0.736s] [0m
+[0.737s] [31mCMake Error at CMakeLists.txt:26 (add_executable):
+[0.737s]   No SOURCES given to target: visual
+[0.737s] 
+[0.737s] [0m
+[0.737s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.743s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker

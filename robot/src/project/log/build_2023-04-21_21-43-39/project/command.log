@@ -1,0 +1,2 @@
+Invoking command in '/home/magnum/simuate_ws/src/robot/src/project/build/project': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/project -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/project/install/project
+Invoked command in '/home/magnum/simuate_ws/src/robot/src/project/build/project' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/project -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/project/install/project

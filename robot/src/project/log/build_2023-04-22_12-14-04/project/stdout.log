@@ -1,0 +1,3 @@
+[ 25%] Built target project
+[ 37%] [32mBuilding CXX object CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable avoid_obstacle[0m

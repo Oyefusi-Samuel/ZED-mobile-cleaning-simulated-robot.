@@ -1,0 +1,53 @@
+[0.014s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.136s] -- The CXX compiler identification is GNU 9.4.0
+[0.148s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.210s] -- Detecting CXX compiler ABI info
+[0.269s] -- Detecting CXX compiler ABI info - done
+[0.277s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.277s] -- Detecting CXX compile features
+[0.278s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.309s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.309s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.540s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.605s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.691s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.722s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.858s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.860s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.862s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.914s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.915s] -- Looking for pthread_create in pthreads
+[0.957s] -- Looking for pthread_create in pthreads - not found
+[0.957s] -- Looking for pthread_create in pthread
+[1.006s] -- Looking for pthread_create in pthread - found
+[1.007s] -- Found Threads: TRUE  
+[1.134s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.234s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[1.234s]   By not providing "Findvisual_marker.cmake" in CMAKE_MODULE_PATH this
+[1.234s]   project has asked CMake to find a package configuration file provided by
+[1.234s]   "visual_marker", but CMake did not find one.
+[1.234s] 
+[1.234s]   Could not find a package configuration file provided by "visual_marker"
+[1.234s]   with any of the following names:
+[1.234s] 
+[1.234s]     visual_markerConfig.cmake
+[1.234s]     visual_marker-config.cmake
+[1.234s] 
+[1.234s]   Add the installation prefix of "visual_marker" to CMAKE_PREFIX_PATH or set
+[1.234s]   "visual_marker_DIR" to a directory containing one of the above files.  If
+[1.234s]   "visual_marker" provides a separate development package or SDK, be sure it
+[1.234s]   has been installed.
+[1.235s] 
+[1.235s] -- Configuring incomplete, errors occurred!
+[1.235s] See also "/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/CMakeOutput.log".
+[1.235s] See also "/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker/CMakeFiles/CMakeError.log".
+[1.235s] [0m
+[1.242s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker

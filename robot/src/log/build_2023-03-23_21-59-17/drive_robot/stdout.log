@@ -1,0 +1,19 @@
+running egg_info
+writing ../build/drive_robot/drive_robot.egg-info/PKG-INFO
+writing dependency_links to ../build/drive_robot/drive_robot.egg-info/dependency_links.txt
+writing entry points to ../build/drive_robot/drive_robot.egg-info/entry_points.txt
+writing requirements to ../build/drive_robot/drive_robot.egg-info/requires.txt
+writing top-level names to ../build/drive_robot/drive_robot.egg-info/top_level.txt
+reading manifest file '../build/drive_robot/drive_robot.egg-info/SOURCES.txt'
+writing manifest file '../build/drive_robot/drive_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../build/drive_robot/drive_robot.egg-info to /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/python3.8/site-packages/drive_robot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing velocity_drive script to /home/magnum/simuate_ws/src/robot/src/install/drive_robot/lib/drive_robot
+writing list of installed files to '/home/magnum/simuate_ws/src/robot/src/build/drive_robot/install.log'

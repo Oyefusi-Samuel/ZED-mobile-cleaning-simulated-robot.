@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/projectt.dir/src/drive_straight.cpp.o -o projectt 

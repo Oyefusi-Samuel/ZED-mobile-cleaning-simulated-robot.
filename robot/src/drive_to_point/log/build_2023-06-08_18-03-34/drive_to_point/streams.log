@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8
+[0.026s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.197s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.220s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.309s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.336s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.414s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.432s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.471s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.515s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.524s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.525s] -- Configured cppcheck include dirs: 
+[0.525s] -- Configured cppcheck exclude dirs and/or files: 
+[0.534s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.534s] -- Configured cpplint exclude dirs and/or files: 
+[0.535s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.537s] -- Added test 'lint_cmake' to check CMake code style
+[0.539s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.547s] -- Added test 'uncrustify' to check C / C++ code style
+[0.547s] -- Configured uncrustify additional arguments: 
+[0.548s] -- Added test 'xmllint' to check XML markup files
+[0.549s] -- Configuring done
+[0.555s] -- Generating done
+[0.556s] -- Build files have been written to: /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point
+[0.576s] [ 50%] [32m[1mLinking CXX executable drive_to_point[0m
+[0.682s] /usr/bin/ld: CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o: in function `rclcpp::Publisher<nav2_msgs::action::NavigateToPose_Goal_<std::allocator<void> >, std::allocator<void> >::Publisher(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&, rclcpp::PublisherOptionsWithAllocator<std::allocator<void> > const&)':
+[0.682s] drive_point.cpp:(.text._ZN6rclcpp9PublisherIN9nav2_msgs6action20NavigateToPose_Goal_ISaIvEEES4_EC2EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE[_ZN6rclcpp9PublisherIN9nav2_msgs6action20NavigateToPose_Goal_ISaIvEEES4_EC5EPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSERKNS_29PublisherOptionsWithAllocatorIS4_EE]+0x6e): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<nav2_msgs::action::NavigateToPose_Goal_<std::allocator<void> > >()'
+[0.685s] collect2: error: ld returned 1 exit status
+[0.686s] make[2]: *** [CMakeFiles/drive_to_point.dir/build.make:154: drive_to_point] Error 1
+[0.686s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drive_to_point.dir/all] Error 2
+[0.686s] make: *** [Makefile:146: all] Error 2
+[0.688s] Invoked command in '/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/build/drive_to_point -- -j8 -l8

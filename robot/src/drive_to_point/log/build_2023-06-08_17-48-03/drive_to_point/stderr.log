@@ -1,0 +1,10 @@
+[01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:16:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KNavigateGoal::[m[K’ on member ‘[01m[KcontrolCycle[m[K’ [[01;31m[K-fpermissive[m[K]
+   16 |     void [01;31m[KNavigateGoal[m[K::controlCycle() {
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:[m[K In member function ‘[01m[Kvoid NavigateGoal::controlCycle()[m[K’:
+[01m[K/home/magnum/ros2_ws/src/robot/Ros-2-simulated-robot./src/drive_to_point/src/drive_point.cpp:23:49:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Knav2_msgs::action::NavigateToPose::Goal[m[K’ {aka ‘[01m[Knav2_msgs::action::NavigateToPose_Goal_<std::allocator<void> >[m[K’}
+   23 |         navigateGoalPublisher->publish(goalState[01;31m[K->[m[Kgoal)
+      |                                                 [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/drive_to_point.dir/build.make:76: CMakeFiles/drive_to_point.dir/src/drive_point.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/drive_to_point.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

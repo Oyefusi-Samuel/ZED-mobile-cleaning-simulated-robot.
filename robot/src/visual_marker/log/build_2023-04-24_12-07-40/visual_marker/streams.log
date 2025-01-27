@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker
+[0.024s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.229s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.255s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.364s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.397s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.494s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.574s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.623s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.676s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.680s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.680s] -- Configured cppcheck include dirs: 
+[0.681s] -- Configured cppcheck exclude dirs and/or files: 
+[0.685s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.685s] -- Configured cpplint exclude dirs and/or files: 
+[0.685s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.687s] -- Added test 'lint_cmake' to check CMake code style
+[0.687s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.692s] -- Added test 'uncrustify' to check C / C++ code style
+[0.692s] -- Configured uncrustify additional arguments: 
+[0.692s] -- Added test 'xmllint' to check XML markup files
+[0.693s] -- Configuring done
+[0.702s] -- Generating done
+[0.703s] -- Build files have been written to: /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker
+[0.710s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/magnum/simuate_ws/src/robot/src/visual_marker -DCMAKE_INSTALL_PREFIX=/home/magnum/simuate_ws/src/robot/src/visual_marker/install/visual_marker
+[0.713s] Invoking command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8
+[0.735s] [ 50%] [32mBuilding CXX object CMakeFiles/visual.dir/src/visual.cpp.o[0m
+[0.749s] [100%] [32m[1mLinking CXX executable visual[0m
+[0.786s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.787s] (.text+0x24): undefined reference to `main'
+[0.787s] collect2: error: ld returned 1 exit status
+[0.788s] make[2]: *** [CMakeFiles/visual.dir/build.make:154: visual] Error 1
+[0.788s] make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/visual.dir/all] Error 2
+[0.788s] make: *** [Makefile:146: all] Error 2
+[0.789s] Invoked command in '/home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/magnum/simuate_ws/src/robot/src/visual_marker/build/visual_marker -- -j8 -l8

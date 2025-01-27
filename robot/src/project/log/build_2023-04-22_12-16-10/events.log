@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000396] (project) JobQueued: {'identifier': 'project', 'dependencies': OrderedDict()}
+[0.000482] (project) JobStarted: {'identifier': 'project'}
+[0.024720] (project) JobProgress: {'identifier': 'project', 'progress': 'cmake'}
+[0.026350] (project) JobProgress: {'identifier': 'project', 'progress': 'build'}
+[0.044676] (project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/magnum/simuate_ws/src/robot/src/project/build/project', '--', '-j8', '-l8'], 'cwd': '/home/magnum/simuate_ws/src/robot/src/project/build/project', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_NG:en'), ('USER', 'magnum'), ('SSH_AGENT_PID', '2468'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/magnum'), ('OLDPWD', '/home/magnum/simuate_ws/src/robot/src/project/src'), ('DESKTOP_SESSION', 'ubuntu'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2297'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4670'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/project/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'magnum'), ('JOURNAL_STREAM', '8:56525'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'magnum'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/magnum/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/robostek:@/tmp/.ICE-unix/2538,unix/robostek:/tmp/.ICE-unix/2538'), ('INVOCATION_ID', 'c2e64bb6f17a4db98d1c519c54fc55e3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/project/install/project:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:df311f12-7ac3-452b-86c1-240081096854'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/magnum/simuate_ws/src/robot/src/project/build/project'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/magnum/simuate_ws/src/robot/src/project/install/project:/opt/ros/foxy')]), 'shell': False}
+[0.089196] (-) TimerEvent: {}
+[0.189800] (-) TimerEvent: {}
+[0.229908] (project) StdoutLine: {'line': b'[ 25%] Built target project\n'}
+[0.289929] (-) TimerEvent: {}
+[0.294721] (project) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o\x1b[0m\n'}
+[0.393032] (-) TimerEvent: {}
+[0.493474] (-) TimerEvent: {}
+[0.601559] (-) TimerEvent: {}
+[0.702019] (-) TimerEvent: {}
+[0.802484] (-) TimerEvent: {}
+[0.902937] (-) TimerEvent: {}
+[1.003497] (-) TimerEvent: {}
+[1.103980] (-) TimerEvent: {}
+[1.204445] (-) TimerEvent: {}
+[1.304894] (-) TimerEvent: {}
+[1.405384] (-) TimerEvent: {}
+[1.506148] (-) TimerEvent: {}
+[1.606781] (-) TimerEvent: {}
+[1.707434] (-) TimerEvent: {}
+[1.807882] (-) TimerEvent: {}
+[1.908325] (-) TimerEvent: {}
+[2.008730] (-) TimerEvent: {}
+[2.109183] (-) TimerEvent: {}
+[2.209592] (-) TimerEvent: {}
+[2.310015] (-) TimerEvent: {}
+[2.410399] (-) TimerEvent: {}
+[2.510843] (-) TimerEvent: {}
+[2.611237] (-) TimerEvent: {}
+[2.711668] (-) TimerEvent: {}
+[2.812166] (-) TimerEvent: {}
+[2.913115] (-) TimerEvent: {}
+[3.013729] (-) TimerEvent: {}
+[3.114157] (-) TimerEvent: {}
+[3.214593] (-) TimerEvent: {}
+[3.315071] (-) TimerEvent: {}
+[3.415537] (-) TimerEvent: {}
+[3.515973] (-) TimerEvent: {}
+[3.616617] (-) TimerEvent: {}
+[3.717268] (-) TimerEvent: {}
+[3.817872] (-) TimerEvent: {}
+[3.918410] (-) TimerEvent: {}
+[4.018953] (-) TimerEvent: {}
+[4.119479] (-) TimerEvent: {}
+[4.220108] (-) TimerEvent: {}
+[4.320799] (-) TimerEvent: {}
+[4.421476] (-) TimerEvent: {}
+[4.521864] (-) TimerEvent: {}
+[4.622214] (-) TimerEvent: {}
+[4.722588] (-) TimerEvent: {}
+[4.829285] (-) TimerEvent: {}
+[4.929683] (-) TimerEvent: {}
+[5.030128] (-) TimerEvent: {}
+[5.130600] (-) TimerEvent: {}
+[5.231380] (-) TimerEvent: {}
+[5.332080] (-) TimerEvent: {}
+[5.433234] (-) TimerEvent: {}
+[5.533764] (-) TimerEvent: {}
+[5.637471] (-) TimerEvent: {}
+[5.742269] (-) TimerEvent: {}
+[5.842775] (-) TimerEvent: {}
+[5.943593] (-) TimerEvent: {}
+[6.044273] (-) TimerEvent: {}
+[6.144724] (-) TimerEvent: {}
+[6.245362] (-) TimerEvent: {}
+[6.345854] (-) TimerEvent: {}
+[6.446385] (-) TimerEvent: {}
+[6.547191] (-) TimerEvent: {}
+[6.647735] (-) TimerEvent: {}
+[6.748518] (-) TimerEvent: {}
+[6.849336] (-) TimerEvent: {}
+[6.950316] (-) TimerEvent: {}
+[7.050888] (-) TimerEvent: {}
+[7.151480] (-) TimerEvent: {}
+[7.251894] (-) TimerEvent: {}
+[7.352333] (-) TimerEvent: {}
+[7.453094] (-) TimerEvent: {}
+[7.553712] (-) TimerEvent: {}
+[7.654581] (-) TimerEvent: {}
+[7.755385] (-) TimerEvent: {}
+[7.856063] (-) TimerEvent: {}
+[7.956897] (-) TimerEvent: {}
+[8.057591] (-) TimerEvent: {}
+[8.158035] (-) TimerEvent: {}
+[8.262298] (-) TimerEvent: {}
+[8.362776] (-) TimerEvent: {}
+[8.463179] (-) TimerEvent: {}
+[8.563695] (-) TimerEvent: {}
+[8.664046] (-) TimerEvent: {}
+[8.764437] (-) TimerEvent: {}
+[8.864828] (-) TimerEvent: {}
+[8.965255] (-) TimerEvent: {}
+[9.065792] (-) TimerEvent: {}
+[9.166256] (-) TimerEvent: {}
+[9.266762] (-) TimerEvent: {}
+[9.367304] (-) TimerEvent: {}
+[9.412508] (project) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable avoid_obstacle\x1b[0m\n'}
+[9.472980] (-) TimerEvent: {}
+[9.573737] (-) TimerEvent: {}
+[9.674257] (-) TimerEvent: {}
+[9.774702] (-) TimerEvent: {}
+[9.837870] (project) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/avoid_obstacle.dir/src/avoid_obstacle.cpp.o: in function `rclcpp::create_subscription_factory<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::_Bind<void (avoid_obstacle::*(avoid_obstacle*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>, std::allocator<void>, sensor_msgs::msg::LaserScan_<std::allocator<void> >, rclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void>, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >(std::_Bind<void (avoid_obstacle::*(avoid_obstacle*, std::_Placeholder<1>))(std::shared_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> > >)>&&, rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> > const&, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> >::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >)::{lambda(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&)#1}::operator()(rclcpp::node_interfaces::NodeBaseInterface*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::QoS const&) const':\n"}
+[9.838678] (project) StderrLine: {'line': b"avoid_obstacle.cpp:(.text._ZZN6rclcpp27create_subscription_factoryIN11sensor_msgs3msg10LaserScan_ISaIvEEESt5_BindIFM14avoid_obstacleFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_[_ZZN6rclcpp27create_subscription_factoryIN11sensor_msgs3msg10LaserScan_ISaIvEEESt5_BindIFM14avoid_obstacleFvSt10shared_ptrIS5_EEPS7_St12_PlaceholderILi1EEEES4_S5_NS_12SubscriptionIS5_S4_NS_23message_memory_strategy21MessageMemoryStrategyIS5_S4_EEEESK_EENS_19SubscriptionFactoryEOT0_RKNS_32SubscriptionOptionsWithAllocatorIT1_EENT4_9SharedPtrES8_INS_16topic_statistics27SubscriptionTopicStatisticsIT2_EEEENKUlPNS_15node_interfaces17NodeBaseInterfaceERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_3QoSEE_clES13_S1B_S1E_]+0x5c): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<sensor_msgs::msg::LaserScan_<std::allocator<void> > >()'\n"}
+[9.845064] (project) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[9.846435] (project) StderrLine: {'line': b'make[2]: *** [CMakeFiles/avoid_obstacle.dir/build.make:149: avoid_obstacle] Error 1\n'}
+[9.846703] (project) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/avoid_obstacle.dir/all] Error 2\n'}
+[9.846855] (project) StderrLine: {'line': b'make: *** [Makefile:146: all] Error 2\n'}
+[9.850746] (project) CommandEnded: {'returncode': 2}
+[9.874827] (-) TimerEvent: {}
+[9.975458] (-) TimerEvent: {}
+[10.011752] (project) JobEnded: {'identifier': 'project', 'rc': 2}
+[10.022669] (-) EventReactorShutdown: {}
