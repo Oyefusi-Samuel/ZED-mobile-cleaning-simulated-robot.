@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot">
+
+  <xacro:arg name="run_gz_sim" default="false"/>
+  
+  <!-- The robot .xacro file  -->
+  <xacro:include filename="robot.xacro"/> 
+  <!-- The lidar sensor file  -->
+  <xacro:include filename="lidar_sensor.xacro"/> 
+  <!-- The imu sensor file  -->
+  <xacro:include filename="imu_sensor.xacro"/> 
+  <!-- dept camra file  -->
+  <xacro:include filename="dept_camera.xacro"/>
+  <!-- control file  -->
+  <xacro:if value="$(arg run_gz_sim)">
+        <xacro:include filename="$(find zed_bot_description)/urdf/controllers/gazebo_diff_drive_control.xacro" />
+    </xacro:if>
+    <xacro:unless value="$(arg run_gz_sim)">
+        <xacro:include filename="$(find zed_bot_description)/urdf/controllers/epmc_diff_drive_ros2_control.xacro" />
+    </xacro:unless>
+
+</robot>
+
+
+
+ 

@@ -1,4 +1,4 @@
-# ZED-mobile-cleaning-simulated-robot IGN GAZEBO.
+# ZED-mobile-cleaning-simulated-robot.
 ![image](https://github.com/user-attachments/assets/05693079-0374-4f11-943a-48d90b5548c9)
 
 Fisrt step in building the differential-drive ZED mobile cleaning robot:
@@ -214,3 +214,112 @@ If you are using ros 2 humble distro , just replace <ros2_distro> with humble . 
 
 
 
+
+
+
+
+</br></br></br></br></br></br></br></br></br></br></br></br></br>
+
+## NEW README FOR ZED BOT
+
+#### Build the zed_bot packages
+- In the `src/` folder of your `ros workspace`, clone the repo
+  (or you can download and add it manually to the `src/` folder)
+  ```shell
+  git clone https://github.com/Oyefusi-Samuel/ZED-mobile-cleaning-simulated-robot..git zed_bot
+  ```
+
+- from the `src/` folder, cd into the root directory of your `ros workspace` and run rosdep to install all necessary ros dependencies
+  ```shell
+  cd ../
+  rosdep install --from-paths src --ignore-src -r -y
+  ```
+
+- build the packages with colcon (in your `ros workspace` root folder) (run in either PC or microcomputer like raspberry pi):
+  ```shell
+  colcon build --packages-select zed_bot_description zed_bot_base --symlink-install
+  ```
+- only build the rviz package in a PC (not a microcomputer like raspberry pi):
+  ```shell
+  colcon build --packages-select zed_bot_rviz zed_bot_sim --symlink-install
+  ```
+
+#
+
+### View Robot and Transform Tree
+
+- open a new terminal and start the robot state publisher (where ever the EPMC and EIMU is - devPC or microcomputer)
+  ```shell
+  ros2 launch zed_bot_description rsp.launch.py use_joint_state_pub:=true
+  ```
+- in a differnt terminal on your Dev PC, run the rviz launch file to view the robot
+  ```shell
+  ros2 launch zed_bot_rviz rsp.launch.py
+  ```
+- To view transform tree, in a differnt terminal (while robot state publisher is still runing), run the following
+  ```shell
+  ros2 run rqt_tf_tree rqt_tf_tree
+  ```
+
+### Launch Robot Simulation
+
+- open a new terminal and start the robot state publisher (where ever the EPMC and EIMU is - devPC or microcomputer)
+  ```shell
+  ros2 launch zed_bot_sim sim.launch.py
+  ```
+
+#### Launch actual physical robot base without EKF (Default)
+- by default the robot launch will be with the ekf using only the EPMC (i.e motor controller) module
+
+- ensure the EPMC motor controller is connected serially.
+
+- open a new terminal and ensure you source your `ros workspace` in the terminal
+
+- start the robot base control
+  ```shell
+  ros2 launch zed_bot_base robot.launch.py
+  ```
+- open another terminal and ensure you source your `ros workspace` in the terminal
+
+- launch the rviz (on your PC) to start robot base with odometry
+  ```shell
+  ros2 launch zed_bot_rviz robot.launch.py
+  ```
+
+#### Launch robot base with EKF
+- ensure both the EPMC motor controller and the EIMU are connected serially.
+
+- open the `robot.launch` file in the `zed_bot_base` package and change the **use_ekf** parameter to 'True'. this will start the EIMU and EKF node alongside the EPMC ros2 control
+```
+declare_use_ekf_cmd = DeclareLaunchArgument(
+      name='use_ekf',
+      default_value='True', 
+      description='fuse odometry and imu data if true')
+```
+
+- open a new terminal and ensure you source your `ros workspace` in the terminal
+
+- start the robot base control
+  ```shell
+  ros2 launch zed_bot_base robot.launch.py
+  ```
+- open another terminal and ensure you source your `ros workspace` in the terminal
+
+- launch the rviz to display robot base with filterd odometry 
+  ```shell
+  ros2 launch zed_bot_rviz robot.launch.py
+#
+
+#### DRIVING / CONTROL
+- you can now drive the **zed_bot** with the default ROS teleop package
+
+- But I recommend driving the **zed_bot** with the [**arrow_key_teleop_drive**](https://github.com/samuko-things/arrow_key_teleop_drive) package I created to make driving robot easy using just your keyboard arrow keys.
+
+- if you,ve downloaded and build the **arrow_key_teleop_drive**, run this command to drive the robot. don't forget to source your workspace.
+  ```shell
+  ros2 run arrow_key_teleop_drive arrow_key_teleop_drive
+  ```
+  OR
+  ```shell
+  ros2 run arrow_key_teleop_drive arrow_key_teleop_drive <v in m/s> <w in rad/sec>
+  ```
