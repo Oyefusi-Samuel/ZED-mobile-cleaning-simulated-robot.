@@ -95,7 +95,11 @@ ros2 launch robot show.robot.launch.py world:='/home/sam/zed_robot/src/robot/wor
  ```
    ros2 run teleop_twist_keyboard  teleop_twist_keyboard
  ```
- 
+ # You can drive the robot with arrow keys using a special teleop node
+```
+  ros2 run arrow_key_teleop_drive arrow_key_teleop_drive
+```
+
  You can give colour to the robot,by adding colour to the robot description .xacro file.
 
 ![image](https://github.com/user-attachments/assets/7a46493f-694c-4e51-80fe-e2468c98deed)
