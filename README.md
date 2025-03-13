@@ -75,7 +75,8 @@ To spawn the robot into gazebo, launch the file called show.robot.launch.py, ens
 
 # To LAUNCH THE ROBOT:
  
-```ros2 launch robot gazebo_sim.launch.py 
+```
+ros2 launch robot gazebo_sim.launch.py 
 ```
 
 ![Screenshot from 2024-12-19 14-09-51](https://github.com/user-attachments/assets/c2dca134-85bb-4497-a191-8be6e65ca0ef)
