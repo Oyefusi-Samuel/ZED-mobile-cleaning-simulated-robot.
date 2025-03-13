@@ -73,15 +73,11 @@ https://classic.gazebosim.org/tutorials?tut=ros_gzplugins
 To spawn the robot into gazebo, launch the file called show.robot.launch.py, ensure you save the custom designed gazebo world into the world directory in the src folder (Note: launch files in ROS 2 are python scripts/files)
 
 
-# To LAUNCH THE WORLD:
+# To LAUNCH THE ROBOT:
  
+```ros2 launch robot gazebo_sim.launch.py 
 ```
-   ros2 launch robot show.robot.launch.py world:="path to the .world file"
-```
-Mine is:
-```
-ros2 launch robot show.robot.launch.py world:='/home/sam/zed_robot/src/robot/worlds/cafeworld' 
-```
+
 ![Screenshot from 2024-12-19 14-09-51](https://github.com/user-attachments/assets/c2dca134-85bb-4497-a191-8be6e65ca0ef)
 ![Screenshot from 2024-12-19 14-24-43](https://github.com/user-attachments/assets/08396e2a-4be4-48c1-9304-a7ec9c649b3d)
 
