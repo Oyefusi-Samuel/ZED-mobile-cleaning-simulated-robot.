@@ -222,6 +222,58 @@ If you are using ros 2 humble distro , just replace <ros2_distro> with humble . 
 
 ## NEW README FOR ZED BOT
 
+#### Prequisite
+- Ensure you have already setup the motor's velocity PID with the **`Easy PID Motor Controller (EPMC) Module`** via the EPMC Setup Application GUI.
+
+- Ensure you have already calibrated and set up the **`Easy IMU (EIMU) Module`** via the EIMU Setup Application GUI.
+
+- In the `src/` folder of your `ros workspace`, clone the repo **epmc_hardware_interface** ROS2 plugin package
+  (or you can download and add it manually to the `src/` folder)
+  ```shell
+  git clone https://github.com/robocre8/epmc_hardware_interface.git
+  ```
+  
+- In the `src/` folder of your `ros workspace`, clone the repo **eimu_ros** ROS2 package
+  (or you can download and add it manually to the `src/` folder)
+  ```shell
+  git clone https://github.com/robocre8/eimu_ros.git
+  ```
+  
+- ensure you have the libserial package installed on your linux PC
+  ```shell
+    sudo apt install libserial-dev
+  ```
+  
+- from the `src/` folder, cd into the root directory of your `ros workspace` and run rosdep to install all necessary ros dependencies for the **EPMC** and **EIMU** ros packages
+  ```shell
+  cd ../
+  rosdep install --from-paths src --ignore-src -r -y
+  ```
+  
+- check the serial port the EPMC module is connected to:
+  > The best way to select the right serial port (if you are using multiple serial devices) is to select by path
+  ```shell
+  ls /dev/serial/by-path
+  ```
+  > You should see a value (if the driver is connected and seen by the computer), and your serial port would be -> /dev/serial/by-path/[value]. for more info visit this tutorial from [ArticulatedRobotics](https://www.youtube.com/watch?v=eJZXRncGaGM&list=PLunhqkrRNRhYAffV8JDiFOatQXuU-NnxT&index=8)
+
+  - OR you can also try this:
+  ```shell
+  ls /dev/ttyU*
+  ```
+  > you should see /dev/ttyUSB0 or /dev/ttyUSB1 and so on
+
+- once you have gotten the **port**, update the **port** parameter in the **`<ros2_control>`** tag in the robot's URDF **`epmc_ros2_control.xacro`** file in the **`easy_demo_bot_description`** package, with the discovered port in the previous step
+
+- Once that is done, do the same for the EIMU module and change the port parameter in the **`eimu_ros_start_params.yaml`** file found in the **`config`** folder of the **`easy_demo_bot_base`** package
+
+- build the **epmc_hardware_interface** and **eimu_ros** packages with colcon (in your `ros workspace` root folder) (run in either PC or microcomputer like raspberry pi):
+  ```shell
+  colcon build --packages-select epmc_hardware_interface eimu_ros --symlink-install
+  ```
+
+#
+
 #### Build the zed_bot packages
 - In the `src/` folder of your `ros workspace`, clone the repo
   (or you can download and add it manually to the `src/` folder)
@@ -239,6 +291,7 @@ If you are using ros 2 humble distro , just replace <ros2_distro> with humble . 
   ```shell
   colcon build --packages-select zed_bot_description zed_bot_base --symlink-install
   ```
+  
 - only build the rviz package in a PC (not a microcomputer like raspberry pi):
   ```shell
   colcon build --packages-select zed_bot_rviz zed_bot_sim --symlink-install
@@ -263,7 +316,7 @@ If you are using ros 2 humble distro , just replace <ros2_distro> with humble . 
 
 ### Launch Robot Simulation
 
-- open a new terminal and start the robot state publisher (where ever the EPMC and EIMU is - devPC or microcomputer)
+- close other terminal and launch this in a new terminal (in your Dev PC). don't forget to source your ros workspace
   ```shell
   ros2 launch zed_bot_sim sim.launch.py
   ```
@@ -273,7 +326,7 @@ If you are using ros 2 humble distro , just replace <ros2_distro> with humble . 
 
 - ensure the EPMC motor controller is connected serially.
 
-- open a new terminal and ensure you source your `ros workspace` in the terminal
+- open a new terminal (on your Microcomputer - e.g. Raspberry Pi - or PC) and ensure you source your `ros workspace` in the terminal 
 
 - start the robot base control
   ```shell
