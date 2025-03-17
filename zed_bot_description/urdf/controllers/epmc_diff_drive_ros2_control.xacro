@@ -7,7 +7,7 @@
         <plugin>epmc_hardware_interface/EPMCHardwareInterface</plugin>
         <param name="motorA_wheel_name">left_wheel_joint</param>
         <param name="motorB_wheel_name">right_wheel_joint</param>
-        <param name="port">/dev/serial/by-path/platform-fd500000.pcie-pci-0000:01:00.0-usb-0:1.2.4:1.0-port0</param>
+        <param name="port">/dev/ttyUSB0</param>
         <param name="cmd_vel_timeout_ms">2000</param>
       </hardware>
 

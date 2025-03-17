@@ -6,7 +6,7 @@
       <parent link="chassis"/>
       <child link="camera_link"/>
       <!-- Camera origin adjusted to be at the center of the chassis -->
-      <origin xyz="0.15 -0.3 0.12" rpy="0 0 0"/> <!-- Position camera at chassis center -->
+      <origin xyz="0.45 0.0 0.15" rpy="0 0 0"/> <!-- Position camera at chassis center -->
    </joint>
 
     <!-- Camera link definition -->
@@ -14,7 +14,7 @@
         <visual>
             <geometry>
                 <!-- Changing to box for rectangular camera -->
-                <box size="0.03 0.03 0.03"/> <!-- Adjust dimensions as needed -->
+                <box size="0.03 0.12 0.03"/> <!-- Adjust dimensions as needed -->
             </geometry>
             <!-- Removed material definition here, using Gazebo plugin material instead -->
         </visual>
@@ -31,9 +31,9 @@
 
 
     <xacro:if value="$(arg run_gz_sim)">
-        <gazebo reference="camera_link">
+        <gazebo reference="camera_link_optical">
           <visual>
-            <xacro:gz_material_grey/>
+            <xacro:gz_material_red/>
           </visual>
           <sensor name="camera_link_optical" type="depth">
             <gz_frame_id>camera_link</gz_frame_id>
