@@ -1,14 +1,15 @@
 import os
-
 from ament_index_python.packages import get_package_share_directory
-
+from launch_ros.actions import LifecycleNode
 from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription, RegisterEventHandler, DeclareLaunchArgument
-from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.launch_description_sources import PythonLaunchDescriptionSource, XMLLaunchDescriptionSource
 from launch.substitutions import Command, LaunchConfiguration, PythonExpression
 from launch.event_handlers import OnProcessExit
 from launch_ros.actions import Node
 from launch.conditions import IfCondition, UnlessCondition
+
+
 
 
 def generate_launch_description():
@@ -109,17 +110,54 @@ def generate_launch_description():
             parameters=[
                 ekf_config_path
             ],
-            condition=IfCondition(use_ekf),
+            condition=IfCondition(use_ekf), 
             remappings=[("odometry/filtered", odom_topic)]
 
         )
+
+    lidar_config_path  = os.path.join(base_pkg_path,'config','ydlidar_x3.yaml') 
+    lidar_node = LifecycleNode(
+        package='ydlidar_ros2_driver',
+        executable='ydlidar_ros2_driver_node',
+        name='ydlidar_ros2_driver_node',
+        namespace='/',
+        output='screen',
+        emulate_tty=True,
+        parameters=[
+            lidar_config_path],
+    )
+
+  astra_camera_launch = IncludeLaunchDescription(
+        xmlLaunchDescriptionSource([os.path.join(description_pkg_path,'launch','rsp.launch.py')]), 
+        launch_arguments={'use_sim_time': 'False',
+                          'use_joint_state_pub': 'False'}.items())
+
+    camera_node = Node(
+        package='opencv_ros_camera',
+        executable='camera_publisher',
+        name='camera_publisher',
+        output='screen',
+        parameters=[{'frame_id': "camera_optical",
+                      'port_no': 0,
+                      'frame_width': 320,
+                      'frame_height': 240,
+                      'compression_format': "jpeg", # you can also use "jpeg"
+                      'publish_frequency': 30.0}
+                    ],
+        condition=IfCondition(use_camera),
+    )
 
     # Create the launch description and populate
     ld = LaunchDescription()
 
     # add the necessary declared launch arguments to the launch description
     ld.add_action(declare_use_ekf_cmd)
+    ld.add_action(declare_use_eimu_cmd)
+    ld.add_action(declare_test_eimu_cmd)
+    ld.add_action(declare_use_epmc_cmd)
     ld.add_action(declare_odom_topic_cmd)
+    ld.add_action(declare_lidar_cmd)
+    ld.add_action(declare_camera_cmd)
     
 
     # Add the nodes to the launch description
@@ -130,5 +168,7 @@ def generate_launch_description():
     ld.add_action(start_epmc_diff_drive_controller_spawner_after_joint_state_broadcaster_spawner)
     ld.add_action(eimu_ros_node)
     ld.add_action(ekf_node)
+    ld.add_action(lidar_node)
+    ld.add_action(camera_node)
 
     return ld      # return (i.e send) the launch description for excecution
