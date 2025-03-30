@@ -9,27 +9,38 @@ from launch.event_handlers import OnProcessExit
 from launch_ros.actions import Node
 from launch.conditions import IfCondition, UnlessCondition
 
-
-
-
 def generate_launch_description():
     # delare any path variable
     description_pkg_path = get_package_share_directory('zed_bot_description')
     base_pkg_path = get_package_share_directory('zed_bot_base')
 
-    # Launch configuration variables specific to simulation
+    # Launch configuration variables specific to the robot
     use_ekf = LaunchConfiguration('use_ekf')
     odom_topic = LaunchConfiguration('odom_topic')
+    use_lidar = LaunchConfiguration('use_lidar')
+    use_camera = LaunchConfiguration('use_camera')
 
+  
     declare_use_ekf_cmd = DeclareLaunchArgument(
       name='use_ekf',
-      default_value='False',
+      default_value='True',
       description='fuse odometry and imu data if true')
 
     declare_odom_topic_cmd = DeclareLaunchArgument(
       name='odom_topic',
       default_value='odom',
       description='topic to remap /odometry/filtered to')
+    
+    declare_lidar_cmd = DeclareLaunchArgument(
+      name='use_lidar',
+      default_value='True',
+      description='use ydlidar x3 if true')
+    
+    declare_camera_cmd = DeclareLaunchArgument(
+      name='use_camera',
+      default_value='False',
+      description='use camera if true')
+    
     
     # create needed nodes or launch files
     rsp_launch = IncludeLaunchDescription(
@@ -42,6 +53,7 @@ def generate_launch_description():
 
     # see -> https://github.com/ros-controls/ros2_control_demos/blob/humble/example_2/bringup/launch/diffbot.launch.py
     # see -> https://control.ros.org/master/doc/ros2_control/controller_manager/doc/userdoc.html
+    
     controller_manager_with_ekf = Node(
         package="controller_manager",
         executable="ros2_control_node",
@@ -125,36 +137,34 @@ def generate_launch_description():
         emulate_tty=True,
         parameters=[
             lidar_config_path],
+        condition=IfCondition(use_lidar),
     )
 
-  astra_camera_launch = IncludeLaunchDescription(
-        xmlLaunchDescriptionSource([os.path.join(description_pkg_path,'launch','rsp.launch.py')]), 
-        launch_arguments={'use_sim_time': 'False',
-                          'use_joint_state_pub': 'False'}.items())
+#   astra_camera_launch = IncludeLaunchDescription(
+#         xmlLaunchDescriptionSource([os.path.join(description_pkg_path,'launch','rsp.launch.py')]), 
+#         launch_arguments={'use_sim_time': 'False',
+#                           'use_joint_state_pub': 'False'}.items())
 
-    camera_node = Node(
-        package='opencv_ros_camera',
-        executable='camera_publisher',
-        name='camera_publisher',
-        output='screen',
-        parameters=[{'frame_id': "camera_optical",
-                      'port_no': 0,
-                      'frame_width': 320,
-                      'frame_height': 240,
-                      'compression_format': "jpeg", # you can also use "jpeg"
-                      'publish_frequency': 30.0}
-                    ],
-        condition=IfCondition(use_camera),
-    )
+    # camera_node = Node(
+    #     package='opencv_ros_camera',
+    #     executable='camera_publisher',
+    #     name='camera_publisher',
+    #     output='screen',
+    #     parameters=[{'frame_id': "camera_optical",
+    #                   'port_no': 0,
+    #                   'frame_width': 320,
+    #                   'frame_height': 240,
+    #                   'compression_format': "jpeg", # you can also use "jpeg"
+    #                   'publish_frequency': 30.0}
+    #                 ],
+    #     condition=IfCondition(use_camera),
+    # )
 
     # Create the launch description and populate
     ld = LaunchDescription()
 
     # add the necessary declared launch arguments to the launch description
     ld.add_action(declare_use_ekf_cmd)
-    ld.add_action(declare_use_eimu_cmd)
-    ld.add_action(declare_test_eimu_cmd)
-    ld.add_action(declare_use_epmc_cmd)
     ld.add_action(declare_odom_topic_cmd)
     ld.add_action(declare_lidar_cmd)
     ld.add_action(declare_camera_cmd)
@@ -169,6 +179,6 @@ def generate_launch_description():
     ld.add_action(eimu_ros_node)
     ld.add_action(ekf_node)
     ld.add_action(lidar_node)
-    ld.add_action(camera_node)
+    # ld.add_action(camera_node)
 
     return ld      # return (i.e send) the launch description for excecution
